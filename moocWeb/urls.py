@@ -16,8 +16,10 @@ from django.conf.urls import include, url
 from django.contrib import admin
 #from moocWeb import views
 from moocWeb.views import mainPage
+from course.views import dashBoard
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
     url(r'^$', mainPage, name='mainPage'),
+	url(r'^dashBoard$', dashBoard, name='dashBoard'),
 ]

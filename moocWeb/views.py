@@ -7,4 +7,4 @@ from django.template import RequestContext
 def mainPage(request):
 	#return HttpResponse('')
 	students = 1
-	return render_to_response('welcome.html', RequestContext(request, locals()))
+	return render_to_response('welcome.html', locals())

@@ -26,7 +26,7 @@ SECRET_KEY = '!cjrt-zcc@5015p-xm%_k(n((n+b1_@c5^ajbe0tibyu9=(-wi'
 DEBUG = True
 
 #ALLOWED_HOSTS = []
-ALLOWED_HOSTS = ['140.112.107.157','127.0.0.1']
+ALLOWED_HOSTS = ['140.112.107.157','127.0.0.1', '192.168.44.128']
 
 
 # Application definition
@@ -38,6 +38,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+	'course',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -88,8 +89,15 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'gabr',
         'USER': 'postgres',
-        'HOST': '140.112.107.157',
-        'PORT': '5432',
+        'HOST': '127.0.0.1',
+        'PORT': '5434',
+    },
+    'sudongpo': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'su-dongpo',
+        'USER': 'postgres',
+        'HOST': '127.0.0.1',
+        'PORT': '5435',
     }
 }
 
