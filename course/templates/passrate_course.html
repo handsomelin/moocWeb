@@ -3,9 +3,9 @@
     {{course_name}}
 {% endblock %}
 {% block button %}
-    <input type="button" value="註冊人數" onclick=""><br>
-    <input type="button" value="影片評分" onclick="">
-    <input type="button" value="作業完成率" onclick="">
+    <input type="button" value="註冊人數" onclick="location.href='/registerCourse/{{now_id}}/'"><br>
+    <input type="button" value="影片評分" onclick="location.href='/ratingCourse/{{now_id}}/'">
+    <input type="button" value="作業完成率" onclick="location.href='/passrateCourse/{{now_id}}/'">
 {% endblock %}
 {% block tabletitle %}
     <td>測驗次數</td>
@@ -18,5 +18,5 @@
     <td>{{average_pass}}</td>
 {% endblock %}
 {% block item %}
-    <input type="button" value="課程詳細資訊" onclick="location.href='http://127.0.0.1:8000/gabr_passrate_item'">
+    <input type="button" value="課程詳細資訊" onclick="location.href='/passrateItem/{{now_id}}/'">
 {% endblock %}
