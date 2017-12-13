@@ -19,17 +19,7 @@ def passrateCourse(request, id):
 	for row in csv.DictReader(myFile):
 		if(row['id'] == id):
 			course_name=row['課程名稱']
-        	test=row['測驗次數']
-        	total_pass=row['通過次數']
-        	average_pass=row['平均通過率']
-    return render_to_response('passrate_course.html',locals())
-
-def passrateItem(request):
-	myFile=open('/home/moocWeb/produced_csv/total/total_passrate_course_level.csv','r')
-	courseList = ['2d-cad', '3d-cad', 'cad', 'cad-bim-shiwu', 'cad3d', 'gabr', 'ji-chu-guang-xue', 'mechanics-of-materials-1', 'ntumlone-mathematicalfoundations', 'qin-shi-huang', 'rengong-zhineng', 'shaonian-fuli', 'shiji', 'shiyan-jingji-xue', 'tang-poems', 'wuli']
-	for row in csv.DictReader(myFile):
-        course_name=row['課程名稱']
-        test=row['測驗次數']
-        total_pass=row['通過次數']
-        average_pass=row['平均通過率']
-    return render_to_response('passrate_course.html',locals())
+			test=row['測驗次數']
+			total_pass=row['通過次數']
+			average_pass=row['平均通過率']
+	return render_to_response('passrate_course.html',locals())
