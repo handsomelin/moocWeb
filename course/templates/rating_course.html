@@ -8,14 +8,16 @@
     <input type="button" value="作業完成率" onclick="">
 {% endblock %}
 {% block tabletitle %}
-    <td>測驗次數</td>
-    <td>通過次數</td>
-    <td>平均通過率</td>
+    <td>Good總次數</td>
+    <td>Bad總次數</td>
+    <td>評價次數</td>
+    <td>平均分數</td>
 {% endblock %}
 {% block table %}
-    <td>{{test}}</td>
-    <td>{{total_pass}}</td>
-    <td>{{average_pass}}</td>
+    <td>{{total_good}}</td>
+    <td>{{total_bad}}</td>
+    <td>{{total}}</td>
+    <td>{{average_rating}}</td>
 {% endblock %}
 {% block item %}
     <input type="button" value="課程詳細資訊" onclick="location.href='http://127.0.0.1:8000/gabr_passrate_item'">

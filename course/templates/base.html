@@ -60,40 +60,47 @@
     </head>
 
     <body>
-        <h1 align="center">{% block title %}{% end block %}</h1>
+        <h1 align="center">
+            {% block title %}
+                
+            {% end block %}</h1>
         <hr>
         <ul align="center">
             {% for course in courseList %}
-                <li class="currentPage"><a href="/">{{ course.name }}</a></li>
-                <li><a href="/register_course/qin">中國古代歷史與人物－－秦始皇</a></li>
-                <li><a href="/register_course/ren"></a>人工智慧</li>
-                <li><a href="/register_course/ntumlone">機器學習基石上</a></li>
+                <li class="currentPage"><a href="/">商管研究中的賽局分析：通路選擇、合約制定與共享經濟</a></li>
+                <li><a href="/register_course/qin-shi-huang">中國古代歷史與人物－－秦始皇</a></li>
+                <li><a href="/register_course/rengong-zhineng"></a>人工智慧</li>
+                <li><a href="/register_course/ntumlone-mathematicalfoundations">機器學習基石上</a></li>
             {% endfor %}
-            </ul>
+        </ul>
         <div>
-            <p id="substract">{% block button %}
+            <p id="substract">
+                {% block button %}
                 
                 {% endblock %}
             </p>
             <p id="head">作業完成率</p>
-            <!-- <p id="main-content"> -->
-                <table align="center">
-                    <tr>{% block tabletitle %}
+            <table align="center">
+                <tr>
+                    {% block tabletitle %}
                         <td>測驗次數</td>
                         <td>通過次數</td>
                         <td>平均通過率</td>
+                    {% endblock %}
+                </tr>
+                <tr>
+                    {% block table %}
+
+                    {% endblock %}
+                </tr>
+                <tr>
+                    <td align="center" colspan="3">
+                        {% block item %}
+
                         {% endblock %}
-                    </tr>
-                    <tr>{% block table %}
-                        {% endblock %}
-                    </tr>
-                    <tr>
-                        <td align="center" colspan="3">
-                            {% block item %}
-                            {% endblock %}
-                        </td>
-                    </tr>
-                </table>
+                    </td>
+                </tr>
+            </table>
         </div>       
     </body>
 </html>

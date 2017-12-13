@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+{% block title %} 
+    {{course_name}}
+{% end block %}
+{% block button %}
+    <input type="button" value="註冊人數" onclick=""><br>
+    <input type="button" value="影片評分" onclick="">
+    <input type="button" value="作業完成率" onclick="">
+{% endblock %}
+{% block tabletitle %}
+    <td>週次</td>
+    <td>該週開始日期</td>
+    <td>該週結束日期</td>
+    <td>註冊人數</td>
+    <td>購買人數</td>
+    <td>完課人數</td>
+{% endblock %}
+{% block table %}
+    <td>
+        {% for week_name in week_name %}
+            {{week_name}}<br>
+        {% endfor %}
+    </td>
+    <td>
+        {% for item_name in item_name %}
+            {{item_name}}<br>
+        {% endfor %}
+    </td>
+    <td><font size="4">
+        {% for item_type in item_type %}
+            {{item_type}}<br>
+        {% endfor %}
+    </font></td>
+    <td><font size="4">
+        {% for good in good %}
+            {{good}}<br>
+        {% endfor %}
+    </font></td>
+    <td><font size="4">
+        {% for bad in bad %}
+            {{bad}}<br>
+        {% endfor %}
+    </font></td>
+    </tr>   
+{% endblock %}
+{% block item %}
+<input type ="button" onclick="history.back()" value="回上一頁"></input>
+{% endblock %}
