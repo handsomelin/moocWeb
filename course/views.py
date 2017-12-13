@@ -48,3 +48,21 @@ def ratingCourse(request, id):
 	myFile2.close()
 	now_id = id
 	return render_to_response('rating_course.html',locals())
+
+def registerCourse(request, id):
+	myFile=open('/home/user/moocWeb/total/total_register_course_level.csv','r')
+	myFile2=open('/home/user/moocWeb/total/course.csv','r')
+	course_id = []
+	courseList = []
+	for row in csv.DictReader(myFile):
+		if(row['id'] == id):
+			course_name=row['課程名稱']
+			total_register=row['總註冊人數']
+			total_buy=row['總購買人數']
+			total_finish=row['總完課人數']
+	for row in csv.DictReader(myFile2):
+		courseList.append(row['課程名稱'])
+	myFile.close()
+	myFile2.close()
+	now_id = id
+	return render_to_response('register_course.html',locals())
