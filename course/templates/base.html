@@ -37,7 +37,7 @@
                 } */
                 ul {
                     list-style-type: none;
-                }
+                }.
                 li {
                     display: inline;
                     border: 0px solid black;
@@ -63,14 +63,14 @@
         <h1 align="center">
             {% block title %}
                 
-            {% end block %}</h1>
+            {% endblock %}</h1>
         <hr>
         <ul align="center">
             {% for course in courseList %}
-                <li class="currentPage"><a href="/">商管研究中的賽局分析：通路選擇、合約制定與共享經濟</a></li>
-                <li><a href="/register_course/6/">中國古代歷史與人物－－秦始皇</a></li>
+                <li class="currentPage"><a href="/passrateCourse/{{forloop.counter}}">{{course}}</a></li>
+                <!-- <li><a href="/register_course/6/">中國古代歷史與人物－－秦始皇</a></li>
                 <li><a href="/register_course/11/"></a>人工智慧</li>
-                <li><a href="/register_course/9/">機器學習基石上</a></li>
+                <li><a href="/register_course/9/">機器學習基石上</a></li> -->
             {% endfor %}
         </ul>
         <div>

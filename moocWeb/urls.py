@@ -21,6 +21,6 @@ from course.views import dashBoard, passrateCourse
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
     url(r'^$', mainPage, name='mainPage'),
-	url(r'^dashBoard$', dashBoard, name='dashBoard'),
-	url(r'^passrateCourse/(\d{1, 5})/$', passrateCourse, name='passrateCourse'),
+	url(r'^dashBoard/$', dashBoard, name='dashBoard'),
+	url(r'^passrateCourse/(\d{1,5})/$', passrateCourse, name='passrate_course'),
 ]
