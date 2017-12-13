@@ -27,6 +27,7 @@ def passrateCourse(request, id):
 		courseList.append(row['課程名稱'])
 	myFile.close()
 	myFile2.close()
+	now_id = id
 	return render_to_response('passrate_course.html',locals())
 
 def ratingCourse(request, id):
@@ -45,4 +46,5 @@ def ratingCourse(request, id):
 		courseList.append(row['課程名稱'])
 	myFile.close()
 	myFile2.close()
-	return render_to_response('passrate_course.html',locals())
+	now_id = id
+	return render_to_response('rating_course.html',locals())
