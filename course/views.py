@@ -13,7 +13,7 @@ def dashBoard(request):
 	return render_to_response('dashboard.html', locals())
 
 def passrateCourse(request, id):
-	myFile=open('/home/moocWeb/produced_csv/total/total_passrate_course_level.csv','r')
+	myFile=open('/home/moocWeb/total/total_passrate_course_level.csv','r')
 	# myFile2=open('/home/moocWeb/produced_csv/courseList.csv','r')
 	# courseList = ['2d-cad', '3d-cad', 'cad', 'cad-bim-shiwu', 'cad3d', 'gabr', 'ji-chu-guang-xue', 'mechanics-of-materials-1', 'ntumlone-mathematicalfoundations', 'qin-shi-huang', 'rengong-zhineng', 'shaonian-fuli', 'shiji', 'shiyan-jingji-xue', 'tang-poems', 'wuli']
 	for row in csv.DictReader(myFile):
