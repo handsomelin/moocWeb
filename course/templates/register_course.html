@@ -1,12 +1,13 @@
 {% extends 'base.html' %}
 {% block title %} 
     {{course_name}}
-{% end block %}
-{% block button %}
-    <input type="button" value="註冊人數" onclick=""><br>
-    <input type="button" value="影片評分" onclick="">
-    <input type="button" value="作業完成率" onclick="">
 {% endblock %}
+{% block button %}
+    <input type="button" value="註冊人數" onclick="location.href='/registerCourse/{{now_id}}/'"><br>
+    <input type="button" value="影片評分" onclick="location.href='/ratingCourse/{{now_id}}/'">
+    <input type="button" value="作業完成率" onclick="location.href='/passrateCourse/{{now_id}}/'">
+{% endblock %}
+{% block type %} register people {% endblock %}
 {% block tabletitle %}
     <td>總註冊人數</td>
     <td>總購買人數</td>

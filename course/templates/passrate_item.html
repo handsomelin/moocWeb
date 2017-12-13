@@ -1,45 +1,46 @@
 {% extends 'base.html' %}
 {% block title %} 
     {{course_name}}
-{% end block %}
+{% endblock %}
 {% block button %}
     <input type="button" value="註冊人數" onclick="location.href='/registerCourse/{{now_id}}/'"><br>
     <input type="button" value="影片評分" onclick="location.href='/ratingCourse/{{now_id}}/'">
     <input type="button" value="作業完成率" onclick="location.href='/passrateCourse/{{now_id}}/'">
 {% endblock %}
 {% block tabletitle %}
-    <td>作業名稱</td>
-    <td>作業類型</td>
-    <td>繳交人數</td>
-    <td>通過人數</td>
-    <td>通過率</td>
+                        <td>作業名稱</td>
+                        <td>作業類型</td>
+                        <td>繳交人數</td>
+                        <td>通過人數</td>
+                        <td>通過率</td>
 {% endblock %}
 {% block table %}
-    <td>
-        {% for week_name in week_name %}
-            {{week_name}}<br>
-        {% endfor %}
-    </td>
-    <td>
-        {% for item_name in item_name %}
-            {{item_name}}<br>
-        {% endfor %}
-    </td>
-    <td><font size="4">
-        {% for item_type in item_type %}
-            {{item_type}}<br>
-        {% endfor %}
-    </font></td>
-    <td><font size="4">
-        {% for good in good %}
-            {{good}}<br>
-        {% endfor %}
-    </font></td>
-    <td><font size="4">
-        {% for bad in bad %}
-            {{bad}}<br>
-        {% endfor %}
-    </font></td>
+    <td >
+                            {% for test_name in test_name %}
+                                {{test_name}}<br>
+                            {% endfor %}
+                        </td>
+                        <td><font size="4">
+                            {% for test_type in test_type %}
+                                {{test_type}}<br>
+                            {% endfor %}
+                        </font></td>
+                        <td><font size="4">
+                            {% for total in total %}
+                                {{total}}<br>
+                            {% endfor %}
+                        </font></td>
+                        <td><font size="4">
+                            {% for pas in pas %}
+                                {{pas}}<br>
+                            {% endfor %}
+                        </font></td>
+                        <td><font size="4">
+                            {% for passrate in passrate %}
+                                {{passrate}}<br>
+                            {% endfor %}
+                        </font></td>
 {% endblock %}
 {% block item %}
 <input type ="button" onclick="history.back()" value="回上一頁"></input>
+{% endblock %}

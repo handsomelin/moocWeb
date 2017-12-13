@@ -79,13 +79,11 @@
                 
                 {% endblock %}
             </p>
-            <p id="head">作業完成率</p>
+            <p id="head">{% block type %}{% endblock %}</p>
             <table align="center">
                 <tr>
                     {% block tabletitle %}
-                        <td>測驗次數</td>
-                        <td>通過次數</td>
-                        <td>平均通過率</td>
+                        
                     {% endblock %}
                 </tr>
                 <tr>
