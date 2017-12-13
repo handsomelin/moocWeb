@@ -10,3 +10,7 @@ def dashBoard(request):
 	bnumber = benrolledUsers.all().count()
 	benrolled_number = benrolledUsers.filter(course_membership_role='LEARNER').count()
 	return render_to_response('dashboard.html', locals())
+
+def passrateCourse(request):
+	test = 
+	total =

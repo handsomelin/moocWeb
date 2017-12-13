@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Hello</title>
+        <style>
+                h1{	
+                    text-align: center;
+                    font-size: 30px;
+                }
+                p#head{
+                    text-align: center;
+                    font-weight: bold;
+                    font-size: 30px;
+                    margin: 0px;
+                    padding: 10px;
+                }
+                p#substract {
+                    float: left;
+                    width: 100px;
+                    height: 250px;
+                    border-right: 1px solid black;
+                    margin: 0px;
+                    padding: 10px;
+                    margin-right: 10px;
+                }
+                p#main-content {
+                    text-align: center;
+                    margin: 0px;
+                    font-size: 20px;
+                    height: 400px;
+                    /* border-bottom: 1px solid black;
+                    border-top: 1px solid black; */
+                    padding: 10px;
+                }			
+                /* div {
+                    border: 1px solid black;
+                } */
+                ul {
+                    list-style-type: none;
+                }
+                li {
+                    display: inline;
+                    border: 0px solid black;
+                    padding: 10px 20px;
+                    background-color: lightblue;
+                    border-radius: 10px;
+                    color: white;
+                }
+                li:hover {
+                    background-color: blue;
+                }
+                a {
+                    text-decoration: none;
+                    color: white;
+                }
+                li.currentPage {
+                    background-color: blue;
+                }
+            </style>
+    </head>
+
+    <body>
+        <h1 align="center">{% block title %}{% end block %}</h1>
+        <hr>
+        <ul align="center">
+            {% for course in courseList %}
+                <li class="currentPage"><a href="/">{{ course.name }}</a></li>
+                <li><a href="/register_course/qin">中國古代歷史與人物－－秦始皇</a></li>
+                <li><a href="/register_course/ren"></a>人工智慧</li>
+                <li><a href="/register_course/ntumlone">機器學習基石上</a></li>
+            {% endfor %}
+            </ul>
+        <div>
+            <p id="substract">{% block button %}
+                
+                {% endblock %}
+            </p>
+            <p id="head">作業完成率</p>
+            <!-- <p id="main-content"> -->
+                <table align="center">
+                    <tr>{% block tabletitle %}
+                        <td>測驗次數</td>
+                        <td>通過次數</td>
+                        <td>平均通過率</td>
+                        {% endblock %}
+                    </tr>
+                    <tr>{% block table %}
+                        {% endblock %}
+                    </tr>
+                    <tr>
+                        <td align="center" colspan="3">
+                            {% block item %}
+                            {% endblock %}
+                        </td>
+                    </tr>
+                </table>
+        </div>       
+    </body>
+</html>

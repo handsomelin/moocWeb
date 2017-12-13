@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Hello</title>
+        <style>
+                h1{	
+                    text-align: center;
+                    font-size: 30px;
+                }
+                p#head{
+                    text-align: center;
+                    font-weight: bold;
+                    font-size: 30px;
+                    margin: 0px;
+                    padding: 10px;
+                }
+                p#substract {
+                    float: left;
+                    width: 100px;
+                    height: 250px;
+                    border-right: 1px solid black;
+                    margin: 0px;
+                    padding: 10px;
+                    margin-right: 10px;
+                }
+                p#main-content {
+                    text-align: center;
+                    margin: 0px;
+                    font-size: 20px;
+                    height: 400px;
+                    /* border-bottom: 1px solid black; */
+                    border-top: 1px solid black;
+                    padding: 10px;
+                }			
+            		
+                /* div {
+                    border: 1px solid black;
+                } */
+                ul {
+                    list-style-type: none;
+                }
+                li {
+                    display: inline;
+                    border: 0px solid black;
+                    padding: 10px 20px;
+                    background-color: lightblue;
+                    border-radius: 10px;
+                    color: white;
+                }
+                li:hover {
+                    background-color: blue;
+                }
+                a {
+                    text-decoration: none;
+                    color: white;
+                }
+                li.currentPage {
+                    background-color: blue;
+                }
+            </style>
+    </head>
+
+    <body>
+        <h1 align="center">{{course_name}}</h1>
+        <hr>
+        <ul align="center">
+                <li class="currentPage"><a href="http://127.0.0.1:8000">商管研究中的賽局分析:通路選擇、合約制定與共享經濟</a></li>
+                <li><a href="http://127.0.0.1:8000/qin_register_course">中國古代歷史與人物－－秦始皇</a></li>
+                <li><a href="http://127.0.0.1:8000/ren_register_course">人工智慧</a></li>
+                <li><a href="http://127.0.0.1:8000/ntu_register_course">機器學習基石上</a></li>
+            </ul>
+        <div>
+            <p id="substract">
+                <br>
+                <br>
+                <input type="button" value="註冊人數" onclick="location.href='http://127.0.0.1:8000'"><br>
+                <input type="button" value="影片評分" onclick="location.href='http://127.0.0.1:8000/gabr_rating_course'"><br>
+                <input type="button" value="作業完成率" onclick="location.href='http://127.0.0.1:8000/gabr_passrate_course'">
+            </p>
+            <p id="head">註冊人數</p>
+            <!-- <p id="main-content"> -->
+                <table align="center">
+                    <tr>
+                        <td>週次</td>
+                        <td>該週開始日期</td>
+                        <td>該週結束日期</td>
+                        <td>註冊人數</td>
+                        <td>購買人數</td>
+                        <td>完課人數</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            {% for week in week %}
+                                {{week}}<br>
+                            {% endfor %}
+                        </td>
+                        <td>
+                            {% for start in start %}
+                                {{start}}<br>
+                            {% endfor %}
+                        </td>
+                        <td>
+                            {% for end in end %}
+                                {{end}}<br>
+                            {% endfor %}
+                        </td>
+                        <td>
+                            {% for register in register %}
+                                {{register}}<br>
+                            {% endfor %}
+                        </td>
+                        <td>
+                            {% for buy in buy %}
+                                {{buy}}<br>
+                            {% endfor %}
+                        </td>
+                        <td>
+                            {% for finish in finish %}
+                                {{finish}}<br>
+                            {% endfor %}
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td colspan="6" align="center">
+                            <input type ="button" onclick="history.back()" value="回上一頁"></input>
+                        </td>
+                    </tr>
+                </table> 
+            <!-- </p> -->
+        </div>
+    </body>
+</html>
