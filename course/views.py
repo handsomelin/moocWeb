@@ -16,7 +16,6 @@ def passrateCourse(request, id):
 	myFile=open('/home/user/moocWeb/total/total_passrate_course_level.csv','r')
 	myFile2=open('/home/user/moocWeb/total/course.csv','r')
 	course_id = []
-	courseList = []
 	for row in csv.DictReader(myFile):
 		if(row['id'] == id):
 			course_name=row['課程名稱']
@@ -24,8 +23,27 @@ def passrateCourse(request, id):
 			test=row['作業份數']
 			total_pass=row['通過人次']
 			average_pass=row['平均通過率']
+	humanityHistoryId = [3, 6, 7, 20, 21,22, 23, 24, 26, 28, 29, 32]
+	businessEconomyId = [1, 30, 31, 9, 33]
+	lifeScienceId = [8, 10, 11, 12, 27, 37, 38]
+	engineeringId = [2, 4, 5, 13, 14, 15, 16, 17, 18, 19, 25, 34]
+	otherId = [35, 36]
+	courseList1 = []
+	courseList2 = []
+	courseList3 = []
+	courseList4 = []
+	courseList5 = []
 	for row in csv.DictReader(myFile2):
-		courseList.append(row['課程名稱'])
+		if int(row['id']) in humanityHistoryId:
+			courseList1.append(row)
+		if int(row['id']) in businessEconomyId:
+			courseList2.append(row)
+		if int(row['id']) in lifeScienceId:
+			courseList3.append(row)
+		if int(row['id']) in engineeringId:
+			courseList4.append(row)
+		if int(row['id']) in otherId:
+			courseList5.append(row)
 	myFile.close()
 	myFile2.close()
 	now_id = id
@@ -35,7 +53,6 @@ def ratingCourse(request, id):
 	myFile=open('/home/user/moocWeb/total/total_rating_course_level.csv','r')
 	myFile2=open('/home/user/moocWeb/total/course.csv','r')
 	course_id = []
-	courseList = []
 	for row in csv.DictReader(myFile):
 		if(row['id'] == id):
 			course_name=row['課程名稱']
@@ -43,8 +60,27 @@ def ratingCourse(request, id):
 			total_bad=row['bad總次數']
 			total=row['評價次數']
 			average_rating = row['平均分數']
+	humanityHistoryId = [3, 6, 7, 20, 21,22, 23, 24, 26, 28, 29, 32]
+	businessEconomyId = [1, 30, 31, 9, 33]
+	lifeScienceId = [8, 10, 11, 12, 27, 37, 38]
+	engineeringId = [2, 4, 5, 13, 14, 15, 16, 17, 18, 19, 25, 34]
+	otherId = [35, 36]
+	courseList1 = []
+	courseList2 = []
+	courseList3 = []
+	courseList4 = []
+	courseList5 = []
 	for row in csv.DictReader(myFile2):
-		courseList.append(row['課程名稱'])
+		if int(row['id']) in humanityHistoryId:
+			courseList1.append(row)
+		if int(row['id']) in businessEconomyId:
+			courseList2.append(row)
+		if int(row['id']) in lifeScienceId:
+			courseList3.append(row)
+		if int(row['id']) in engineeringId:
+			courseList4.append(row)
+		if int(row['id']) in otherId:
+			courseList5.append(row)
 	myFile.close()
 	myFile2.close()
 	now_id = id
@@ -54,15 +90,33 @@ def registerCourse(request, id):
 	myFile=open('/home/user/moocWeb/total/total_register_course_level.csv','r')
 	myFile2=open('/home/user/moocWeb/total/course.csv','r')
 	course_id = []
-	courseList = []
 	for row in csv.DictReader(myFile):
 		if(row['id'] == id):
 			course_name=row['課程名稱']
 			total_register=row['總註冊人數']
 			total_buy=row['總購買人數']
 			total_finish=row['總完課人數']
+	humanityHistoryId = [3, 6, 7, 20, 21,22, 23, 24, 26, 28, 29, 32]
+	businessEconomyId = [1, 30, 31, 9, 33]
+	lifeScienceId = [8, 10, 11, 12, 27, 37, 38]
+	engineeringId = [2, 4, 5, 13, 14, 15, 16, 17, 18, 19, 25, 34]
+	otherId = [35, 36]
+	courseList1 = []
+	courseList2 = []
+	courseList3 = []
+	courseList4 = []
+	courseList5 = []
 	for row in csv.DictReader(myFile2):
-		courseList.append(row['課程名稱'])
+		if int(row['id']) in humanityHistoryId:
+			courseList1.append(row)
+		if int(row['id']) in businessEconomyId:
+			courseList2.append(row)
+		if int(row['id']) in lifeScienceId:
+			courseList3.append(row)
+		if int(row['id']) in engineeringId:
+			courseList4.append(row)
+		if int(row['id']) in otherId:
+			courseList5.append(row)
 	myFile.close()
 	myFile2.close()
 	now_id = id
@@ -71,8 +125,6 @@ def registerCourse(request, id):
 def passrateItem(request, id):
 	myFile=open('/home/user/moocWeb/total/total_passrate_item_level.csv','r')
 	myFile2=open('/home/user/moocWeb/total/course.csv','r')
-	course_id = []
-	courseList = []
 	test_name=[]
 	test_type=[]
 	total=[]
@@ -86,8 +138,27 @@ def passrateItem(request, id):
 			total.append(row['繳交人數'])
 			pas.append(row['通過人數'])
 			passrate.append(row['通過率'])
+	humanityHistoryId = [3, 6, 7, 20, 21,22, 23, 24, 26, 28, 29, 32]
+	businessEconomyId = [1, 30, 31, 9, 33]
+	lifeScienceId = [8, 10, 11, 12, 27, 37, 38]
+	engineeringId = [2, 4, 5, 13, 14, 15, 16, 17, 18, 19, 25, 34]
+	otherId = [35, 36]
+	courseList1 = []
+	courseList2 = []
+	courseList3 = []
+	courseList4 = []
+	courseList5 = []
 	for row in csv.DictReader(myFile2):
-		courseList.append(row['課程名稱'])
+		if int(row['id']) in humanityHistoryId:
+			courseList1.append(row)
+		if int(row['id']) in businessEconomyId:
+			courseList2.append(row)
+		if int(row['id']) in lifeScienceId:
+			courseList3.append(row)
+		if int(row['id']) in engineeringId:
+			courseList4.append(row)
+		if int(row['id']) in otherId:
+			courseList5.append(row)
 	myFile.close()
 	myFile2.close()
 	now_id = id
@@ -96,8 +167,6 @@ def passrateItem(request, id):
 def ratingItem(request, id):
 	myFile=open('/home/user/moocWeb/total/total_rating_item_level.csv','r')
 	myFile2=open('/home/user/moocWeb/total/course.csv','r')
-	course_id = []
-	courseList = []
 	week=[]
 	week_name=[]
 	item_name=[]
@@ -113,8 +182,27 @@ def ratingItem(request, id):
 			item_type.append(row['item類型'])
 			good.append(row['good次數'])
 			bad.append(row['bad次數'])
+	humanityHistoryId = [3, 6, 7, 20, 21,22, 23, 24, 26, 28, 29, 32]
+	businessEconomyId = [1, 30, 31, 9, 33]
+	lifeScienceId = [8, 10, 11, 12, 27, 37, 38]
+	engineeringId = [2, 4, 5, 13, 14, 15, 16, 17, 18, 19, 25, 34]
+	otherId = [35, 36]
+	courseList1 = []
+	courseList2 = []
+	courseList3 = []
+	courseList4 = []
+	courseList5 = []
 	for row in csv.DictReader(myFile2):
-		courseList.append(row['課程名稱'])
+		if int(row['id']) in humanityHistoryId:
+			courseList1.append(row)
+		if int(row['id']) in businessEconomyId:
+			courseList2.append(row)
+		if int(row['id']) in lifeScienceId:
+			courseList3.append(row)
+		if int(row['id']) in engineeringId:
+			courseList4.append(row)
+		if int(row['id']) in otherId:
+			courseList5.append(row)
 	myFile.close()
 	myFile2.close()
 	now_id = id
@@ -123,7 +211,6 @@ def ratingItem(request, id):
 def registerWeeklyItem(request, id):
 	myFile=open('/home/user/moocWeb/total/total_register_item_weekly_level.csv','r')
 	myFile2=open('/home/user/moocWeb/total/course.csv','r')
-	courseList = []
 	week=[]
 	start=[]
 	end=[]
@@ -139,8 +226,27 @@ def registerWeeklyItem(request, id):
 			register.append(row['註冊人數'])
 			buy.append(row['購買人數'])
 			finish.append(row['完課人數'])
+	humanityHistoryId = [3, 6, 7, 20, 21,22, 23, 24, 26, 28, 29, 32]
+	businessEconomyId = [1, 30, 31, 9, 33]
+	lifeScienceId = [8, 10, 11, 12, 27, 37, 38]
+	engineeringId = [2, 4, 5, 13, 14, 15, 16, 17, 18, 19, 25, 34]
+	otherId = [35, 36]
+	courseList1 = []
+	courseList2 = []
+	courseList3 = []
+	courseList4 = []
+	courseList5 = []
 	for row in csv.DictReader(myFile2):
-		courseList.append(row['課程名稱'])
+		if int(row['id']) in humanityHistoryId:
+			courseList1.append(row)
+		if int(row['id']) in businessEconomyId:
+			courseList2.append(row)
+		if int(row['id']) in lifeScienceId:
+			courseList3.append(row)
+		if int(row['id']) in engineeringId:
+			courseList4.append(row)
+		if int(row['id']) in otherId:
+			courseList5.append(row)
 	myFile.close()
 	myFile2.close()
 	now_id = id
@@ -154,7 +260,6 @@ def registerDailyItem(request, id):
 	lifeScienceId = [8, 10, 11, 12, 27, 37, 38]
 	engineeringId = [2, 4, 5, 13, 14, 15, 16, 17, 18, 19, 25, 34]
 	otherId = [35, 36]
-	courseId1 = []
 	courseList1 = []
 	courseList2 = []
 	courseList3 = []
