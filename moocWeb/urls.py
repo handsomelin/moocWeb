@@ -16,7 +16,7 @@ from django.conf.urls import include, url
 from django.contrib import admin
 #from moocWeb import views
 from moocWeb.views import mainPage
-from course.views import dashBoard, passrateCourse, ratingCourse, registerCourse, passrateItem, ratingItem
+from course.views import dashBoard, passrateCourse, ratingCourse, registerCourse, passrateItem, ratingItem, registerWeeklyItem, registerDailyItem
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
@@ -27,5 +27,6 @@ urlpatterns = [
     url(r'^registerCourse/(\d{1,5})/$', registerCourse, name='register_course'),
     url(r'^passrateItem/(\d{1,5})/$', passrateItem, name='passrate_item'),
     url(r'^ratingItem/(\d{1,5})/$', ratingItem, name='rating_item'),
-    # url(r'^registerCourse/(\d{1,5})/$', registerCourse, name='register_course'),
+    url(r'^registerWeeklyItem/(\d{1,5})/$', registerWeeklyItem, name='register_weekly_item'),
+    url(r'^registerDailyItem/(\d{1,5})/$', registerDailyItem, name='register_daily_item'),
 ]

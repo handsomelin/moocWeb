@@ -1,145 +1,323 @@
 id,英文名稱,課程名稱,作業名稱,作業類型,繳交人數,通過人數,通過率
-1,gabr,商管研究中的賽局分析：通路選擇、合約制定與共享經濟,第一週測驗,Normal Assignment,76,66,0.87
-1,gabr,商管研究中的賽局分析：通路選擇、合約制定與共享經濟,囚犯困境實例,Peer Assignment,20,4,0.20
-1,gabr,商管研究中的賽局分析：通路選擇、合約制定與共享經濟,第二週測驗,Normal Assignment,39,35,0.90
-1,gabr,商管研究中的賽局分析：通路選擇、合約制定與共享經濟,第三週測驗,Normal Assignment,24,16,0.67
-1,gabr,商管研究中的賽局分析：通路選擇、合約制定與共享經濟,Return or rebate？競爭者如何影響你的策略選擇,Peer Assignment,4,0,0.00
-1,gabr,商管研究中的賽局分析：通路選擇、合約制定與共享經濟,第四週測驗,Normal Assignment,13,12,0.92
-1,gabr,商管研究中的賽局分析：通路選擇、合約制定與共享經濟,第五週測驗,Normal Assignment,10,10,1.00
-1,gabr,商管研究中的賽局分析：通路選擇、合約制定與共享經濟,第六週測驗,Normal Assignment,8,6,0.75
-1,gabr,商管研究中的賽局分析：通路選擇、合約制定與共享經濟,電信資費方案設計,Peer Assignment,0,0,None
-2,ntumlone-mathematicalfoundations,機器學習基石上 (Machine Learning Foundations)---Mathematical Foundations,作業一,Normal Assignment,846,654,0.77
-2,ntumlone-mathematicalfoundations,機器學習基石上 (Machine Learning Foundations)---Mathematical Foundations,作業二,Normal Assignment,266,248,0.93
-3,qin-shi-huang,中國古代歷史與人物－－秦始皇,第一次作業,Peer Assignment,96,80,0.83
-3,qin-shi-huang,中國古代歷史與人物－－秦始皇,第二次作業,Peer Assignment,57,47,0.82
-3,qin-shi-huang,中國古代歷史與人物－－秦始皇,第三次作業,Peer Assignment,44,38,0.86
-4,rengong-zhineng,人工智慧(Artificial Intelligence),Week 1,Normal Assignment,1698,1236,0.73
-4,rengong-zhineng,人工智慧(Artificial Intelligence),Week 2,Normal Assignment,799,495,0.62
-4,rengong-zhineng,人工智慧(Artificial Intelligence),Week 3,Normal Assignment,444,342,0.77
-4,rengong-zhineng,人工智慧(Artificial Intelligence),Week 4,Normal Assignment,313,253,0.81
-4,rengong-zhineng,人工智慧(Artificial Intelligence),Week 5,Normal Assignment,274,211,0.77
-4,rengong-zhineng,人工智慧(Artificial Intelligence),Week 6,Normal Assignment,251,197,0.78
-4,rengong-zhineng,人工智慧(Artificial Intelligence),Week 7,Normal Assignment,213,165,0.77
-5,cad-bim-shiwu,CAD/BIM實務總整專題：畢業課程,元件數量檢核,Peer Assignment,10,8,0.80
-5,cad-bim-shiwu,CAD/BIM實務總整專題：畢業課程,樓梯檢核,Peer Assignment,9,8,0.89
-5,cad-bim-shiwu,CAD/BIM實務總整專題：畢業課程,網格及樓層檢核,Peer Assignment,15,9,0.60
-5,cad-bim-shiwu,CAD/BIM實務總整專題：畢業課程,地上層樓梯檢核,Peer Assignment,8,6,0.75
-5,cad-bim-shiwu,CAD/BIM實務總整專題：畢業課程,建立屋頂層模型,Peer Assignment,8,6,0.75
-5,cad-bim-shiwu,CAD/BIM實務總整專題：畢業課程,建立斜牆,Peer Assignment,7,5,0.71
-5,cad-bim-shiwu,CAD/BIM實務總整專題：畢業課程,建立裝修材,Peer Assignment,8,7,0.88
-5,cad-bim-shiwu,CAD/BIM實務總整專題：畢業課程,建立周遭建物,Peer Assignment,6,4,0.67
-5,cad-bim-shiwu,CAD/BIM實務總整專題：畢業課程,估算工程所需的混凝土體積,Peer Assignment,5,4,0.80
-5,cad-bim-shiwu,CAD/BIM實務總整專題：畢業課程,估算門窗元件數量,Peer Assignment,5,4,0.80
-5,cad-bim-shiwu,CAD/BIM實務總整專題：畢業課程,建立4D工程模擬,Peer Assignment,5,4,0.80
-5,cad-bim-shiwu,CAD/BIM實務總整專題：畢業課程,工程數量檢視,Peer Assignment,4,3,0.75
-5,cad-bim-shiwu,CAD/BIM實務總整專題：畢業課程,模型驗收,Peer Assignment,4,3,0.75
-5,cad-bim-shiwu,CAD/BIM實務總整專題：畢業課程,設計變更4D工程模擬,Peer Assignment,4,3,0.75
-5,cad-bim-shiwu,CAD/BIM實務總整專題：畢業課程,工程數量檢視,Peer Assignment,3,3,1.00
-5,cad-bim-shiwu,CAD/BIM實務總整專題：畢業課程,模型驗收,Peer Assignment,3,3,1.00
-5,cad-bim-shiwu,CAD/BIM實務總整專題：畢業課程,設計變更4D工程模擬,Peer Assignment,3,3,1.00
-5,cad-bim-shiwu,CAD/BIM實務總整專題：畢業課程,綜整成果,Peer Assignment,2,2,1.00
-6,shiji,史記（一）（Shi-ji (1) ）,第一次作業,Peer Assignment,316,210,0.66
-6,shiji,史記（一）（Shi-ji (1) ）,第二次作業,Peer Assignment,216,169,0.78
-6,shiji,史記（一）（Shi-ji (1) ）,第三次作業,Peer Assignment,172,138,0.80
-7,tang-poems,唐詩新思路,第一講 選擇題測驗,Normal Assignment,1195,578,0.48
-7,tang-poems,唐詩新思路,第二講 選擇題測驗,Normal Assignment,800,512,0.64
-7,tang-poems,唐詩新思路,第三講 互評題測驗,Peer Assignment,100,44,0.44
-7,tang-poems,唐詩新思路,第三講 選擇題測驗,Normal Assignment,667,478,0.72
-7,tang-poems,唐詩新思路,第四講 選擇題測驗,Normal Assignment,531,365,0.69
-7,tang-poems,唐詩新思路,第五講 互評題測驗,Peer Assignment,91,61,0.67
-7,tang-poems,唐詩新思路,第五講 選擇題測驗,Normal Assignment,487,358,0.74
-7,tang-poems,唐詩新思路,第六講 選擇題測驗,Normal Assignment,442,334,0.76
-8,ji-chu-guang-xue,基礎光學 I,光學簡介,Normal Assignment,1459,247,0.17
-8,ji-chu-guang-xue,基礎光學 I,同伴互評,Peer Assignment,317,152,0.48
-8,ji-chu-guang-xue,基礎光學 I,光與物質的交互作用,Normal Assignment,522,198,0.38
-8,ji-chu-guang-xue,基礎光學 I,同伴互評,Peer Assignment,206,113,0.55
-8,ji-chu-guang-xue,基礎光學 I,幾何光學,Normal Assignment,322,62,0.19
-8,ji-chu-guang-xue,基礎光學 I,眼睛的光學,Normal Assignment,234,40,0.17
-8,ji-chu-guang-xue,基礎光學 I,其他成像系統,Normal Assignment,177,62,0.35
-8,ji-chu-guang-xue,基礎光學 I,同伴互評,Peer Assignment,76,36,0.47
-8,ji-chu-guang-xue,基礎光學 I,光學像差,Normal Assignment,144,51,0.35
-8,ji-chu-guang-xue,基礎光學 I,同伴互評,Peer Assignment,72,35,0.49
-8,ji-chu-guang-xue,基礎光學 I,期末考,Normal Assignment,300,55,0.18
-9,shiyan-jingji-xue,實驗經濟學 (Experimental Economics I: Behavioral Game Theory),最後通牒談判實驗,Normal Assignment,580,316,0.54
-9,shiyan-jingji-xue,實驗經濟學 (Experimental Economics I: Behavioral Game Theory),選美結果預測賽局,Normal Assignment,460,273,0.59
-9,shiyan-jingji-xue,實驗經濟學 (Experimental Economics I: Behavioral Game Theory),囚犯的兩難與自願捐輸賽局,Normal Assignment,195,125,0.64
-9,shiyan-jingji-xue,實驗經濟學 (Experimental Economics I: Behavioral Game Theory),信任賽局實驗,Normal Assignment,117,81,0.69
-9,shiyan-jingji-xue,實驗經濟學 (Experimental Economics I: Behavioral Game Theory),獨裁分配賽局實驗,Normal Assignment,148,94,0.64
-9,shiyan-jingji-xue,實驗經濟學 (Experimental Economics I: Behavioral Game Theory),Joker Game,Normal Assignment,97,73,0.75
-9,shiyan-jingji-xue,實驗經濟學 (Experimental Economics I: Behavioral Game Theory),Matching Pennies Game,Normal Assignment,98,77,0.79
-9,shiyan-jingji-xue,實驗經濟學 (Experimental Economics I: Behavioral Game Theory),三種選擇的黑白猜賽局,Normal Assignment,94,69,0.73
-9,shiyan-jingji-xue,實驗經濟學 (Experimental Economics I: Behavioral Game Theory),不同的黑白猜賽局,Normal Assignment,86,66,0.77
-9,shiyan-jingji-xue,實驗經濟學 (Experimental Economics I: Behavioral Game Theory),剪刀石頭布實驗,Normal Assignment,111,76,0.68
-9,shiyan-jingji-xue,實驗經濟學 (Experimental Economics I: Behavioral Game Theory),優勢可解賽局(1),Normal Assignment,78,62,0.79
-9,shiyan-jingji-xue,實驗經濟學 (Experimental Economics I: Behavioral Game Theory),優勢可解賽局(2),Normal Assignment,71,57,0.80
-9,shiyan-jingji-xue,實驗經濟學 (Experimental Economics I: Behavioral Game Theory),捉迷藏賽局,Normal Assignment,77,53,0.69
-9,shiyan-jingji-xue,實驗經濟學 (Experimental Economics I: Behavioral Game Theory),選美結果預測賽局,Normal Assignment,66,53,0.80
-9,shiyan-jingji-xue,實驗經濟學 (Experimental Economics I: Behavioral Game Theory),Strategic IQ Games: DSG,Normal Assignment,63,34,0.54
-9,shiyan-jingji-xue,實驗經濟學 (Experimental Economics I: Behavioral Game Theory),Strategic IQ Games: Sequential BC,Normal Assignment,45,32,0.71
-9,shiyan-jingji-xue,實驗經濟學 (Experimental Economics I: Behavioral Game Theory),Strategic IQ Games: Simultaneous BC,Normal Assignment,49,34,0.69
-9,shiyan-jingji-xue,實驗經濟學 (Experimental Economics I: Behavioral Game Theory),論文書面 / 影片報告,Peer Assignment,22,12,0.55
-10,shaonian-fuli,少年福利與權利 (Welfare and Rights of Youth),Quiz 1,Normal Assignment,410,165,0.40
-10,shaonian-fuli,少年福利與權利 (Welfare and Rights of Youth),Week 2：Peer-Graded Assignment,Peer Assignment,64,27,0.42
-10,shaonian-fuli,少年福利與權利 (Welfare and Rights of Youth),Quiz 3,Normal Assignment,119,55,0.46
-10,shaonian-fuli,少年福利與權利 (Welfare and Rights of Youth),Week 4：Peer-Graded Assignment,Peer Assignment,27,12,0.44
-10,shaonian-fuli,少年福利與權利 (Welfare and Rights of Youth),Quiz 5,Normal Assignment,67,34,0.51
-10,shaonian-fuli,少年福利與權利 (Welfare and Rights of Youth),Week 6：Peer-Graded Assignment,Peer Assignment,14,10,0.71
-11,wuli,普通物理學 - 電磁學、光學及近代物理,第一週作業1 (互評作業),Peer Assignment,79,13,0.16
-11,wuli,普通物理學 - 電磁學、光學及近代物理,第一週作業2 (互評作業),Peer Assignment,36,7,0.19
-11,wuli,普通物理學 - 電磁學、光學及近代物理,第一週作業3,Normal Assignment,122,12,0.10
-11,wuli,普通物理學 - 電磁學、光學及近代物理,第一週作業4 (互評作業),Peer Assignment,19,3,0.16
-11,wuli,普通物理學 - 電磁學、光學及近代物理,第二週作業1,Normal Assignment,40,1,0.03
-11,wuli,普通物理學 - 電磁學、光學及近代物理,第二週作業2 (互評作業),Peer Assignment,8,0,0.00
-11,wuli,普通物理學 - 電磁學、光學及近代物理,第二週作業3 (互評作業),Peer Assignment,2,0,0.00
-11,wuli,普通物理學 - 電磁學、光學及近代物理,第三週作業1 (互評作業),Peer Assignment,2,0,0.00
-11,wuli,普通物理學 - 電磁學、光學及近代物理,第三週作業2 (互評作業),Peer Assignment,1,0,0.00
-11,wuli,普通物理學 - 電磁學、光學及近代物理,第三週作業3 (互評作業),Peer Assignment,0,0,None
-11,wuli,普通物理學 - 電磁學、光學及近代物理,第三週作業4 (互評作業),Peer Assignment,0,0,None
-11,wuli,普通物理學 - 電磁學、光學及近代物理,期末報告提案 (互評作業),Peer Assignment,0,0,None
-11,wuli,普通物理學 - 電磁學、光學及近代物理,第四週作業1 (互評作業),Peer Assignment,1,0,0.00
-11,wuli,普通物理學 - 電磁學、光學及近代物理,第四週作業2,Normal Assignment,11,3,0.27
-11,wuli,普通物理學 - 電磁學、光學及近代物理,第四週作業3 (互評作業),Peer Assignment,0,0,None
-11,wuli,普通物理學 - 電磁學、光學及近代物理,第五週作業1 (互評作業),Peer Assignment,0,0,None
-11,wuli,普通物理學 - 電磁學、光學及近代物理,第五週作業2 (互評作業),Peer Assignment,0,0,None
-11,wuli,普通物理學 - 電磁學、光學及近代物理,第五週作業3 (互評作業),Peer Assignment,1,0,0.00
-11,wuli,普通物理學 - 電磁學、光學及近代物理,第六週作業1,Normal Assignment,19,0,0.00
-11,wuli,普通物理學 - 電磁學、光學及近代物理,第六週作業2,Normal Assignment,6,0,0.00
-11,wuli,普通物理學 - 電磁學、光學及近代物理,第六週作業3,Normal Assignment,3,0,0.00
-11,wuli,普通物理學 - 電磁學、光學及近代物理,期末報告－生活中的物理現象 (互評作業),Peer Assignment,0,0,None
-11,wuli,普通物理學 - 電磁學、光學及近代物理,第七週作業1 (互評作業),Peer Assignment,0,0,None
-11,wuli,普通物理學 - 電磁學、光學及近代物理,第七週作業2 (互評作業),Peer Assignment,0,0,None
-12,mechanics-of-materials-1,材料力學一 (Mechanics of Materials I),Week 1,Normal Assignment,617,93,0.15
-12,mechanics-of-materials-1,材料力學一 (Mechanics of Materials I),Week 2,Normal Assignment,230,35,0.15
-12,mechanics-of-materials-1,材料力學一 (Mechanics of Materials I),Week 3,Normal Assignment,83,13,0.16
-12,mechanics-of-materials-1,材料力學一 (Mechanics of Materials I),期中互評 (4-a),Peer Assignment,13,5,0.38
-12,mechanics-of-materials-1,材料力學一 (Mechanics of Materials I),期中互評 (4-b),Peer Assignment,8,3,0.38
-12,mechanics-of-materials-1,材料力學一 (Mechanics of Materials I),期中互評 (4-c),Peer Assignment,6,2,0.33
-12,mechanics-of-materials-1,材料力學一 (Mechanics of Materials I),期中互評 (4-d),Peer Assignment,6,2,0.33
-12,mechanics-of-materials-1,材料力學一 (Mechanics of Materials I),Week 5,Normal Assignment,57,1,0.02
-12,mechanics-of-materials-1,材料力學一 (Mechanics of Materials I),Week 6,Normal Assignment,56,6,0.11
-12,mechanics-of-materials-1,材料力學一 (Mechanics of Materials I),Week 7,Normal Assignment,36,3,0.08
-12,mechanics-of-materials-1,材料力學一 (Mechanics of Materials I),期末同儕互評作業：創意影片拍攝,Peer Assignment,0,0,None
-13,cad,工程圖學 2D CAD 專題,正向立面圖,Peer Assignment,220,148,0.67
-13,cad,工程圖學 2D CAD 專題,測驗二：立面圖概念與實作,Normal Assignment,369,188,0.51
-13,cad,工程圖學 2D CAD 專題,一樓平面圖,Peer Assignment,252,172,0.68
-13,cad,工程圖學 2D CAD 專題,測驗一：平面圖概念與實作,Normal Assignment,566,226,0.40
-14,3d-cad,工程圖學 3D CAD,205 測驗一,Normal Assignment,1076,306,0.28
-14,3d-cad,工程圖學 3D CAD,206 SketchUp 畫櫃子,Peer Assignment,391,248,0.63
-14,3d-cad,工程圖學 3D CAD,304 測驗二,Normal Assignment,729,269,0.37
-14,3d-cad,工程圖學 3D CAD,305 SketchUp 畫房子,Peer Assignment,348,241,0.69
-14,3d-cad,工程圖學 3D CAD,404 測驗三,Normal Assignment,626,245,0.39
-14,3d-cad,工程圖學 3D CAD,405 SketchUp 畫輪子,Peer Assignment,308,209,0.68
-14,3d-cad,工程圖學 3D CAD,504 測驗四,Normal Assignment,548,238,0.43
-14,3d-cad,工程圖學 3D CAD,505 SketchUp 畫101,Peer Assignment,298,213,0.71
-15,2d-cad,工程圖學 2D CAD,測驗ㄧ：基礎圖形繪製,Normal Assignment,2324,851,0.37
-15,2d-cad,工程圖學 2D CAD,測驗二：幾何圖法,Normal Assignment,1239,525,0.42
-15,2d-cad,工程圖學 2D CAD,514 手繪三視圖 EG Cube #2,Peer Assignment,476,358,0.75
-15,2d-cad,工程圖學 2D CAD,515 AutoCAD繪製三視圖 EG Cube #3,Peer Assignment,479,350,0.73
-15,2d-cad,工程圖學 2D CAD,測驗三：三視圖,Normal Assignment,947,473,0.50
-15,2d-cad,工程圖學 2D CAD,614 手繪等角圖 EG Cube #4,Peer Assignment,418,305,0.73
-15,2d-cad,工程圖學 2D CAD,測驗四：立體圖,Normal Assignment,746,387,0.52
-15,2d-cad,工程圖學 2D CAD,測驗五：尺寸標註與出圖,Normal Assignment,715,360,0.50
-16,cad3d,工程圖學 3D CAD 專題,測驗一,Normal Assignment,321,149,0.46
-16,cad3d,工程圖學 3D CAD 專題,蓋房子第一階段-結構與樓梯,Peer Assignment,174,128,0.74
-16,cad3d,工程圖學 3D CAD 專題,測驗二,Normal Assignment,255,125,0.49
-16,cad3d,工程圖學 3D CAD 專題,蓋房子第二階段-門窗、裝修、材質到模型組合,Peer Assignment,152,113,0.74
+1,gabr,商管研究中的賽局分析：通路選擇、合約制定與共享經濟,第一週測驗,exam,76,66,0.87
+1,gabr,商管研究中的賽局分析：通路選擇、合約制定與共享經濟,囚犯困境實例,phased peer,20,4,0.20
+1,gabr,商管研究中的賽局分析：通路選擇、合約制定與共享經濟,第二週測驗,exam,39,35,0.90
+1,gabr,商管研究中的賽局分析：通路選擇、合約制定與共享經濟,第三週測驗,exam,24,16,0.67
+1,gabr,商管研究中的賽局分析：通路選擇、合約制定與共享經濟,Return or rebate？競爭者如何影響你的策略選擇,phased peer,4,0,0.00
+1,gabr,商管研究中的賽局分析：通路選擇、合約制定與共享經濟,第四週測驗,exam,13,12,0.92
+1,gabr,商管研究中的賽局分析：通路選擇、合約制定與共享經濟,第五週測驗,exam,10,10,1.00
+1,gabr,商管研究中的賽局分析：通路選擇、合約制定與共享經濟,第六週測驗,exam,8,6,0.75
+1,gabr,商管研究中的賽局分析：通路選擇、合約制定與共享經濟,電信資費方案設計,phased peer,0,0,None
+2,ntumlone-mathematicalfoundations,機器學習基石上 (Machine Learning Foundations)---Mathematical Foundations,作業一,exam,846,654,0.77
+2,ntumlone-mathematicalfoundations,機器學習基石上 (Machine Learning Foundations)---Mathematical Foundations,作業二,exam,266,248,0.93
+3,qin-shi-huang,中國古代歷史與人物－－秦始皇,第一次作業,phased peer,96,80,0.83
+3,qin-shi-huang,中國古代歷史與人物－－秦始皇,第二次作業,phased peer,57,47,0.82
+3,qin-shi-huang,中國古代歷史與人物－－秦始皇,第三次作業,phased peer,44,38,0.86
+4,rengong-zhineng,人工智慧(Artificial Intelligence),Week 1,exam,1698,1236,0.73
+4,rengong-zhineng,人工智慧(Artificial Intelligence),Week 2,exam,799,495,0.62
+4,rengong-zhineng,人工智慧(Artificial Intelligence),Week 3,exam,444,342,0.77
+4,rengong-zhineng,人工智慧(Artificial Intelligence),Week 4,exam,313,253,0.81
+4,rengong-zhineng,人工智慧(Artificial Intelligence),Week 5,exam,274,211,0.77
+4,rengong-zhineng,人工智慧(Artificial Intelligence),Week 6,exam,251,197,0.78
+4,rengong-zhineng,人工智慧(Artificial Intelligence),Week 7,exam,213,165,0.77
+5,cad-bim-shiwu,CAD/BIM實務總整專題：畢業課程,元件數量檢核,phased peer,10,8,0.80
+5,cad-bim-shiwu,CAD/BIM實務總整專題：畢業課程,樓梯檢核,phased peer,9,8,0.89
+5,cad-bim-shiwu,CAD/BIM實務總整專題：畢業課程,網格及樓層檢核,phased peer,15,9,0.60
+5,cad-bim-shiwu,CAD/BIM實務總整專題：畢業課程,地上層樓梯檢核,phased peer,8,6,0.75
+5,cad-bim-shiwu,CAD/BIM實務總整專題：畢業課程,建立屋頂層模型,phased peer,8,6,0.75
+5,cad-bim-shiwu,CAD/BIM實務總整專題：畢業課程,建立斜牆,phased peer,7,5,0.71
+5,cad-bim-shiwu,CAD/BIM實務總整專題：畢業課程,建立裝修材,phased peer,8,7,0.88
+5,cad-bim-shiwu,CAD/BIM實務總整專題：畢業課程,建立周遭建物,phased peer,6,4,0.67
+5,cad-bim-shiwu,CAD/BIM實務總整專題：畢業課程,估算工程所需的混凝土體積,phased peer,5,4,0.80
+5,cad-bim-shiwu,CAD/BIM實務總整專題：畢業課程,估算門窗元件數量,phased peer,5,4,0.80
+5,cad-bim-shiwu,CAD/BIM實務總整專題：畢業課程,建立4D工程模擬,phased peer,5,4,0.80
+5,cad-bim-shiwu,CAD/BIM實務總整專題：畢業課程,工程數量檢視,phased peer,4,3,0.75
+5,cad-bim-shiwu,CAD/BIM實務總整專題：畢業課程,模型驗收,phased peer,4,3,0.75
+5,cad-bim-shiwu,CAD/BIM實務總整專題：畢業課程,設計變更4D工程模擬,phased peer,4,3,0.75
+5,cad-bim-shiwu,CAD/BIM實務總整專題：畢業課程,工程數量檢視,phased peer,3,3,1.00
+5,cad-bim-shiwu,CAD/BIM實務總整專題：畢業課程,模型驗收,phased peer,3,3,1.00
+5,cad-bim-shiwu,CAD/BIM實務總整專題：畢業課程,設計變更4D工程模擬,phased peer,3,3,1.00
+5,cad-bim-shiwu,CAD/BIM實務總整專題：畢業課程,綜整成果,phased peer,2,2,1.00
+6,shiji,史記（一）（Shi-ji (1) ）,第一次作業,phased peer,316,210,0.66
+6,shiji,史記（一）（Shi-ji (1) ）,第二次作業,phased peer,216,169,0.78
+6,shiji,史記（一）（Shi-ji (1) ）,第三次作業,phased peer,172,138,0.80
+7,tang-poems,唐詩新思路,第一講 選擇題測驗,exam,1195,578,0.48
+7,tang-poems,唐詩新思路,第二講 選擇題測驗,exam,800,512,0.64
+7,tang-poems,唐詩新思路,第三講 互評題測驗,phased peer,100,44,0.44
+7,tang-poems,唐詩新思路,第三講 選擇題測驗,exam,667,478,0.72
+7,tang-poems,唐詩新思路,第四講 選擇題測驗,exam,531,365,0.69
+7,tang-poems,唐詩新思路,第五講 互評題測驗,phased peer,91,61,0.67
+7,tang-poems,唐詩新思路,第五講 選擇題測驗,exam,487,358,0.74
+7,tang-poems,唐詩新思路,第六講 選擇題測驗,exam,442,334,0.76
+8,ji-chu-guang-xue,基礎光學 I,光學簡介,exam,1459,247,0.17
+8,ji-chu-guang-xue,基礎光學 I,同伴互評,phased peer,317,152,0.48
+8,ji-chu-guang-xue,基礎光學 I,光與物質的交互作用,exam,522,198,0.38
+8,ji-chu-guang-xue,基礎光學 I,同伴互評,phased peer,206,113,0.55
+8,ji-chu-guang-xue,基礎光學 I,幾何光學,exam,322,62,0.19
+8,ji-chu-guang-xue,基礎光學 I,眼睛的光學,exam,234,40,0.17
+8,ji-chu-guang-xue,基礎光學 I,其他成像系統,exam,177,62,0.35
+8,ji-chu-guang-xue,基礎光學 I,同伴互評,phased peer,76,36,0.47
+8,ji-chu-guang-xue,基礎光學 I,光學像差,exam,144,51,0.35
+8,ji-chu-guang-xue,基礎光學 I,同伴互評,phased peer,72,35,0.49
+8,ji-chu-guang-xue,基礎光學 I,期末考,exam,300,55,0.18
+9,shiyan-jingji-xue,實驗經濟學 (Experimental Economics I: Behavioral Game Theory),最後通牒談判實驗,exam,580,316,0.54
+9,shiyan-jingji-xue,實驗經濟學 (Experimental Economics I: Behavioral Game Theory),選美結果預測賽局,exam,460,273,0.59
+9,shiyan-jingji-xue,實驗經濟學 (Experimental Economics I: Behavioral Game Theory),囚犯的兩難與自願捐輸賽局,exam,195,125,0.64
+9,shiyan-jingji-xue,實驗經濟學 (Experimental Economics I: Behavioral Game Theory),信任賽局實驗,exam,117,81,0.69
+9,shiyan-jingji-xue,實驗經濟學 (Experimental Economics I: Behavioral Game Theory),獨裁分配賽局實驗,exam,148,94,0.64
+9,shiyan-jingji-xue,實驗經濟學 (Experimental Economics I: Behavioral Game Theory),Joker Game,exam,97,73,0.75
+9,shiyan-jingji-xue,實驗經濟學 (Experimental Economics I: Behavioral Game Theory),Matching Pennies Game,exam,98,77,0.79
+9,shiyan-jingji-xue,實驗經濟學 (Experimental Economics I: Behavioral Game Theory),三種選擇的黑白猜賽局,exam,94,69,0.73
+9,shiyan-jingji-xue,實驗經濟學 (Experimental Economics I: Behavioral Game Theory),不同的黑白猜賽局,exam,86,66,0.77
+9,shiyan-jingji-xue,實驗經濟學 (Experimental Economics I: Behavioral Game Theory),剪刀石頭布實驗,exam,111,76,0.68
+9,shiyan-jingji-xue,實驗經濟學 (Experimental Economics I: Behavioral Game Theory),優勢可解賽局(1),exam,78,62,0.79
+9,shiyan-jingji-xue,實驗經濟學 (Experimental Economics I: Behavioral Game Theory),優勢可解賽局(2),exam,71,57,0.80
+9,shiyan-jingji-xue,實驗經濟學 (Experimental Economics I: Behavioral Game Theory),捉迷藏賽局,exam,77,53,0.69
+9,shiyan-jingji-xue,實驗經濟學 (Experimental Economics I: Behavioral Game Theory),選美結果預測賽局,exam,66,53,0.80
+9,shiyan-jingji-xue,實驗經濟學 (Experimental Economics I: Behavioral Game Theory),Strategic IQ Games: DSG,exam,63,34,0.54
+9,shiyan-jingji-xue,實驗經濟學 (Experimental Economics I: Behavioral Game Theory),Strategic IQ Games: Sequential BC,exam,45,32,0.71
+9,shiyan-jingji-xue,實驗經濟學 (Experimental Economics I: Behavioral Game Theory),Strategic IQ Games: Simultaneous BC,exam,49,34,0.69
+9,shiyan-jingji-xue,實驗經濟學 (Experimental Economics I: Behavioral Game Theory),論文書面 / 影片報告,phased peer,22,12,0.55
+10,shaonian-fuli,少年福利與權利 (Welfare and Rights of Youth),Quiz 1,exam,410,165,0.40
+10,shaonian-fuli,少年福利與權利 (Welfare and Rights of Youth),Week 2：Peer-Graded Assignment,phased peer,64,27,0.42
+10,shaonian-fuli,少年福利與權利 (Welfare and Rights of Youth),Quiz 3,exam,119,55,0.46
+10,shaonian-fuli,少年福利與權利 (Welfare and Rights of Youth),Week 4：Peer-Graded Assignment,phased peer,27,12,0.44
+10,shaonian-fuli,少年福利與權利 (Welfare and Rights of Youth),Quiz 5,exam,67,34,0.51
+10,shaonian-fuli,少年福利與權利 (Welfare and Rights of Youth),Week 6：Peer-Graded Assignment,phased peer,14,10,0.71
+11,wuli,普通物理學 - 電磁學、光學及近代物理,第一週作業1 (互評作業),phased peer,79,13,0.16
+11,wuli,普通物理學 - 電磁學、光學及近代物理,第一週作業2 (互評作業),phased peer,36,7,0.19
+11,wuli,普通物理學 - 電磁學、光學及近代物理,第一週作業3,exam,122,12,0.10
+11,wuli,普通物理學 - 電磁學、光學及近代物理,第一週作業4 (互評作業),phased peer,19,3,0.16
+11,wuli,普通物理學 - 電磁學、光學及近代物理,第二週作業1,exam,40,1,0.03
+11,wuli,普通物理學 - 電磁學、光學及近代物理,第二週作業2 (互評作業),phased peer,8,0,0.00
+11,wuli,普通物理學 - 電磁學、光學及近代物理,第二週作業3 (互評作業),phased peer,2,0,0.00
+11,wuli,普通物理學 - 電磁學、光學及近代物理,第三週作業1 (互評作業),phased peer,2,0,0.00
+11,wuli,普通物理學 - 電磁學、光學及近代物理,第三週作業2 (互評作業),phased peer,1,0,0.00
+11,wuli,普通物理學 - 電磁學、光學及近代物理,第三週作業3 (互評作業),phased peer,0,0,None
+11,wuli,普通物理學 - 電磁學、光學及近代物理,第三週作業4 (互評作業),phased peer,0,0,None
+11,wuli,普通物理學 - 電磁學、光學及近代物理,期末報告提案 (互評作業),phased peer,0,0,None
+11,wuli,普通物理學 - 電磁學、光學及近代物理,第四週作業1 (互評作業),phased peer,1,0,0.00
+11,wuli,普通物理學 - 電磁學、光學及近代物理,第四週作業2,exam,11,3,0.27
+11,wuli,普通物理學 - 電磁學、光學及近代物理,第四週作業3 (互評作業),phased peer,0,0,None
+11,wuli,普通物理學 - 電磁學、光學及近代物理,第五週作業1 (互評作業),phased peer,0,0,None
+11,wuli,普通物理學 - 電磁學、光學及近代物理,第五週作業2 (互評作業),phased peer,0,0,None
+11,wuli,普通物理學 - 電磁學、光學及近代物理,第五週作業3 (互評作業),phased peer,1,0,0.00
+11,wuli,普通物理學 - 電磁學、光學及近代物理,第六週作業1,exam,19,0,0.00
+11,wuli,普通物理學 - 電磁學、光學及近代物理,第六週作業2,exam,6,0,0.00
+11,wuli,普通物理學 - 電磁學、光學及近代物理,第六週作業3,exam,3,0,0.00
+11,wuli,普通物理學 - 電磁學、光學及近代物理,期末報告－生活中的物理現象 (互評作業),phased peer,0,0,None
+11,wuli,普通物理學 - 電磁學、光學及近代物理,第七週作業1 (互評作業),phased peer,0,0,None
+11,wuli,普通物理學 - 電磁學、光學及近代物理,第七週作業2 (互評作業),phased peer,0,0,None
+12,mechanics-of-materials-1,材料力學一 (Mechanics of Materials I),Week 1,exam,617,93,0.15
+12,mechanics-of-materials-1,材料力學一 (Mechanics of Materials I),Week 2,exam,230,35,0.15
+12,mechanics-of-materials-1,材料力學一 (Mechanics of Materials I),Week 3,exam,83,13,0.16
+12,mechanics-of-materials-1,材料力學一 (Mechanics of Materials I),期中互評 (4-a),phased peer,13,5,0.38
+12,mechanics-of-materials-1,材料力學一 (Mechanics of Materials I),期中互評 (4-b),phased peer,8,3,0.38
+12,mechanics-of-materials-1,材料力學一 (Mechanics of Materials I),期中互評 (4-c),phased peer,6,2,0.33
+12,mechanics-of-materials-1,材料力學一 (Mechanics of Materials I),期中互評 (4-d),phased peer,6,2,0.33
+12,mechanics-of-materials-1,材料力學一 (Mechanics of Materials I),Week 5,exam,57,1,0.02
+12,mechanics-of-materials-1,材料力學一 (Mechanics of Materials I),Week 6,exam,56,6,0.11
+12,mechanics-of-materials-1,材料力學一 (Mechanics of Materials I),Week 7,exam,36,3,0.08
+12,mechanics-of-materials-1,材料力學一 (Mechanics of Materials I),期末同儕互評作業：創意影片拍攝,phased peer,0,0,None
+13,cad,工程圖學 2D CAD 專題,正向立面圖,phased peer,220,148,0.67
+13,cad,工程圖學 2D CAD 專題,測驗二：立面圖概念與實作,exam,369,188,0.51
+13,cad,工程圖學 2D CAD 專題,一樓平面圖,phased peer,252,172,0.68
+13,cad,工程圖學 2D CAD 專題,測驗一：平面圖概念與實作,exam,566,226,0.40
+14,3d-cad,工程圖學 3D CAD,205 測驗一,exam,1076,306,0.28
+14,3d-cad,工程圖學 3D CAD,206 SketchUp 畫櫃子,phased peer,391,248,0.63
+14,3d-cad,工程圖學 3D CAD,304 測驗二,exam,729,269,0.37
+14,3d-cad,工程圖學 3D CAD,305 SketchUp 畫房子,phased peer,348,241,0.69
+14,3d-cad,工程圖學 3D CAD,404 測驗三,exam,626,245,0.39
+14,3d-cad,工程圖學 3D CAD,405 SketchUp 畫輪子,phased peer,308,209,0.68
+14,3d-cad,工程圖學 3D CAD,504 測驗四,exam,548,238,0.43
+14,3d-cad,工程圖學 3D CAD,505 SketchUp 畫101,phased peer,298,213,0.71
+15,2d-cad,工程圖學 2D CAD,測驗ㄧ：基礎圖形繪製,exam,2324,851,0.37
+15,2d-cad,工程圖學 2D CAD,測驗二：幾何圖法,exam,1239,525,0.42
+15,2d-cad,工程圖學 2D CAD,514 手繪三視圖 EG Cube #2,phased peer,476,358,0.75
+15,2d-cad,工程圖學 2D CAD,515 AutoCAD繪製三視圖 EG Cube #3,phased peer,479,350,0.73
+15,2d-cad,工程圖學 2D CAD,測驗三：三視圖,exam,947,473,0.50
+15,2d-cad,工程圖學 2D CAD,614 手繪等角圖 EG Cube #4,phased peer,418,305,0.73
+15,2d-cad,工程圖學 2D CAD,測驗四：立體圖,exam,746,387,0.52
+15,2d-cad,工程圖學 2D CAD,測驗五：尺寸標註與出圖,exam,715,360,0.50
+16,cad3d,工程圖學 3D CAD 專題,測驗一,exam,321,149,0.46
+16,cad3d,工程圖學 3D CAD 專題,蓋房子第一階段-結構與樓梯,phased peer,174,128,0.74
+16,cad3d,工程圖學 3D CAD 專題,測驗二,exam,255,125,0.49
+16,cad3d,工程圖學 3D CAD 專題,蓋房子第二階段-門窗、裝修、材質到模型組合,phased peer,152,113,0.74
+17,jianzhu-zixun-jianmo,工程資訊管理 BIM 基礎,認識BIM技術,exam,661,253,0.38
+17,jianzhu-zixun-jianmo,工程資訊管理 BIM 基礎,全球的BIM發展,exam,528,212,0.40
+17,jianzhu-zixun-jianmo,工程資訊管理 BIM 基礎,同伴互評 1：並列視圖,phased peer,194,138,0.71
+17,jianzhu-zixun-jianmo,工程資訊管理 BIM 基礎,同伴互評 2：旋轉模型,phased peer,184,131,0.71
+17,jianzhu-zixun-jianmo,工程資訊管理 BIM 基礎,同伴互評 1: 切剖模型,phased peer,159,119,0.75
+17,jianzhu-zixun-jianmo,工程資訊管理 BIM 基礎,同伴互評 2: 製作剖面圖,phased peer,154,114,0.74
+17,jianzhu-zixun-jianmo,工程資訊管理 BIM 基礎,模型元件發展程度-LOD,exam,413,171,0.41
+17,jianzhu-zixun-jianmo,工程資訊管理 BIM 基礎,同伴互評 1: 瀏覽明細表,phased peer,143,111,0.78
+17,jianzhu-zixun-jianmo,工程資訊管理 BIM 基礎,同伴互評 2:註解工程圖,phased peer,144,114,0.79
+17,jianzhu-zixun-jianmo,工程資訊管理 BIM 基礎,認識BIM應用工具,exam,327,161,0.49
+18,bim-sumo,工程資訊管理 BIM 塑模,地形、土方開挖,phased peer,128,106,0.83
+18,bim-sumo,工程資訊管理 BIM 塑模,地界線,phased peer,130,105,0.81
+18,bim-sumo,工程資訊管理 BIM 塑模,工程水平垂直放樣,exam,459,141,0.31
+18,bim-sumo,工程資訊管理 BIM 塑模,樓層放樣定位,phased peer,134,105,0.78
+18,bim-sumo,工程資訊管理 BIM 塑模,水平放樣定位,phased peer,134,113,0.84
+18,bim-sumo,工程資訊管理 BIM 塑模,B1F建築模型建置,exam,278,110,0.40
+18,bim-sumo,工程資訊管理 BIM 塑模,建立 B1F 柱與牆,phased peer,98,86,0.88
+18,bim-sumo,工程資訊管理 BIM 塑模,建立 B1F 門與窗,phased peer,98,82,0.84
+18,bim-sumo,工程資訊管理 BIM 塑模,建立筏基板、回填級配、B1F樓板,phased peer,101,86,0.85
+18,bim-sumo,工程資訊管理 BIM 塑模,建立筏基板與地樑,phased peer,103,87,0.84
+18,bim-sumo,工程資訊管理 BIM 塑模,1F建築模型建置,exam,212,90,0.42
+18,bim-sumo,工程資訊管理 BIM 塑模,建立 1F 大樑、小樑與板,phased peer,78,71,0.91
+18,bim-sumo,工程資訊管理 BIM 塑模,建立 1F 柱、RC 牆、磚牆,phased peer,77,72,0.94
+18,bim-sumo,工程資訊管理 BIM 塑模,建立 B1F 室內樓梯,phased peer,85,73,0.86
+18,bim-sumo,工程資訊管理 BIM 塑模,建立 B1F 室外樓梯,phased peer,89,76,0.85
+18,bim-sumo,工程資訊管理 BIM 塑模,接合 B1F 與 1F 結構體元件,phased peer,78,74,0.95
+18,bim-sumo,工程資訊管理 BIM 塑模,修改車道地形,phased peer,67,62,0.93
+18,bim-sumo,工程資訊管理 BIM 塑模,建立 1F 排氣墩,phased peer,71,65,0.92
+18,bim-sumo,工程資訊管理 BIM 塑模,建立 1F 門窗、樓梯,phased peer,73,64,0.88
+18,bim-sumo,工程資訊管理 BIM 塑模,建立 2F 屋簷板,phased peer,71,65,0.92
+18,bim-sumo,工程資訊管理 BIM 塑模,建立 2F 樑與板、接合元件,phased peer,70,62,0.89
+18,bim-sumo,工程資訊管理 BIM 塑模,建立地面排水溝、陰井,phased peer,67,62,0.93
+18,bim-sumo,工程資訊管理 BIM 塑模,建立車道,phased peer,68,63,0.93
+18,bim-sumo,工程資訊管理 BIM 塑模,建築周邊模型建置,exam,182,76,0.42
+19,bim-yingyong,工程資訊管理 BIM 應用,BIM導入指引,exam,196,74,0.38
+19,bim-yingyong,工程資訊管理 BIM 應用,BIM與建築物生命週期,exam,116,73,0.63
+19,bim-yingyong,工程資訊管理 BIM 應用,BIM與綠建築,exam,116,71,0.61
+19,bim-yingyong,工程資訊管理 BIM 應用,BIM與工程數量估算,exam,168,69,0.41
+19,bim-yingyong,工程資訊管理 BIM 應用,案例：彙整明細表,phased peer,63,56,0.89
+19,bim-yingyong,工程資訊管理 BIM 應用,案例：新增明細表,phased peer,64,55,0.86
+19,bim-yingyong,工程資訊管理 BIM 應用,案例：樓梯體積計算,phased peer,63,55,0.87
+19,bim-yingyong,工程資訊管理 BIM 應用,案例：設定明細表,phased peer,63,53,0.84
+19,bim-yingyong,工程資訊管理 BIM 應用,BIM與4D模擬,exam,152,60,0.39
+19,bim-yingyong,工程資訊管理 BIM 應用,案例：Revit預埋參數,phased peer,54,46,0.85
+19,bim-yingyong,工程資訊管理 BIM 應用,案例：創建項目集,phased peer,51,46,0.90
+19,bim-yingyong,工程資訊管理 BIM 應用,案例：對應模型元件與工項,phased peer,50,46,0.92
+19,bim-yingyong,工程資訊管理 BIM 應用,案例：排程與連結模型,phased peer,53,45,0.85
+19,bim-yingyong,工程資訊管理 BIM 應用,案例：覆疊文字,phased peer,50,45,0.90
+19,bim-yingyong,工程資訊管理 BIM 應用,案例：階段外觀定義,phased peer,52,46,0.88
+20,mencius1,東亞儒學：孟子一 (East Asian Confucianisms: Mencius 1),第一週作業,exam,4,4,1.00
+20,mencius1,東亞儒學：孟子一 (East Asian Confucianisms: Mencius 1),第二週作業,exam,0,0,None
+20,mencius1,東亞儒學：孟子一 (East Asian Confucianisms: Mencius 1),第二週作業：簡答題,phased peer,0,0,None
+20,mencius1,東亞儒學：孟子一 (East Asian Confucianisms: Mencius 1),第三週作業：申論題,phased peer,0,0,None
+20,mencius1,東亞儒學：孟子一 (East Asian Confucianisms: Mencius 1),第四週作業,exam,0,0,None
+20,mencius1,東亞儒學：孟子一 (East Asian Confucianisms: Mencius 1),第五週作業,exam,0,0,None
+20,mencius1,東亞儒學：孟子一 (East Asian Confucianisms: Mencius 1),第五週作業：簡答題,phased peer,0,0,None
+20,mencius1,東亞儒學：孟子一 (East Asian Confucianisms: Mencius 1),第六週作業：申論題,phased peer,0,0,None
+20,mencius1,東亞儒學：孟子一 (East Asian Confucianisms: Mencius 1),第七週作業：簡答題,phased peer,0,0,None
+21,mencius2,東亞儒學：孟子二 (East Asian Confucianisms: Mencius 2),作業一,phased peer,30,17,0.57
+21,mencius2,東亞儒學：孟子二 (East Asian Confucianisms: Mencius 2),作業二,phased peer,23,13,0.57
+21,mencius2,東亞儒學：孟子二 (East Asian Confucianisms: Mencius 2),作業三,phased peer,17,8,0.47
+22,east-asian-confucianisms-humanism1,東亞儒家:人文精神一 (East Asian Confucianisms: Humanism 1),自我評估,phased peer,65,46,0.71
+22,east-asian-confucianisms-humanism1,東亞儒家:人文精神一 (East Asian Confucianisms: Humanism 1),關鍵概念描述,phased peer,38,32,0.84
+22,east-asian-confucianisms-humanism1,東亞儒家:人文精神一 (East Asian Confucianisms: Humanism 1),「自我」與「自然」,phased peer,30,24,0.80
+22,east-asian-confucianisms-humanism1,東亞儒家:人文精神一 (East Asian Confucianisms: Humanism 1),請完成以下單選題,exam,57,55,0.96
+22,east-asian-confucianisms-humanism1,東亞儒家:人文精神一 (East Asian Confucianisms: Humanism 1),身分與理分的自我評估,phased peer,32,25,0.78
+22,east-asian-confucianisms-humanism1,東亞儒家:人文精神一 (East Asian Confucianisms: Humanism 1),請完成以下選擇題,exam,37,31,0.84
+22,east-asian-confucianisms-humanism1,東亞儒家:人文精神一 (East Asian Confucianisms: Humanism 1),生死觀與道德兩難,phased peer,23,19,0.83
+23,east-asian-confucianisms-humanism2,東亞儒家:人文精神二(East Asian Confucianisms: Humanism 2),您認為老子如果生在21世紀，他對當前國際政治有何評論？為什麼？,phased peer,3,0,0.00
+23,east-asian-confucianisms-humanism2,東亞儒家:人文精神二(East Asian Confucianisms: Humanism 2),請完成以下選擇題,exam,6,5,0.83
+23,east-asian-confucianisms-humanism2,東亞儒家:人文精神二(East Asian Confucianisms: Humanism 2),佛教與本土觀念的對話,phased peer,0,0,None
+23,east-asian-confucianisms-humanism2,東亞儒家:人文精神二(East Asian Confucianisms: Humanism 2),「理一分殊」說在21世紀的新啟示,phased peer,0,0,None
+23,east-asian-confucianisms-humanism2,東亞儒家:人文精神二(East Asian Confucianisms: Humanism 2),請完成以下選擇題,exam,1,1,1.00
+23,east-asian-confucianisms-humanism2,東亞儒家:人文精神二(East Asian Confucianisms: Humanism 2),從經濟問題論仁政之實踐,phased peer,0,0,None
+23,east-asian-confucianisms-humanism2,東亞儒家:人文精神二(East Asian Confucianisms: Humanism 2),練習：一段史料分析,phased peer,0,0,None
+23,east-asian-confucianisms-humanism2,東亞儒家:人文精神二(East Asian Confucianisms: Humanism 2),「臺灣經驗」評論,phased peer,0,0,None
+24,su-dongpo,東坡詞 (Ci Poetry of Su Dong Po),東坡詞第一次作業,phased peer,142,90,0.63
+24,su-dongpo,東坡詞 (Ci Poetry of Su Dong Po),東坡詞第二次作業,phased peer,86,68,0.79
+24,su-dongpo,東坡詞 (Ci Poetry of Su Dong Po),東坡詞第三次作業,phased peer,76,62,0.82
+25,robotics1,機器人學一 (Robotics 1),Lecture 1,exam,302,247,0.82
+25,robotics1,機器人學一 (Robotics 1),Lecture 2,exam,163,139,0.85
+25,robotics1,機器人學一 (Robotics 1),Lecture 3,exam,112,86,0.77
+25,robotics1,機器人學一 (Robotics 1),Lecture 4,exam,61,35,0.57
+25,robotics1,機器人學一 (Robotics 1),Lecture 5,exam,30,26,0.87
+25,robotics1,機器人學一 (Robotics 1),Lecture 6,exam,24,24,1.00
+25,robotics1,機器人學一 (Robotics 1),Lecture 7,exam,21,19,0.90
+26,xila-zhexue,活用希臘哲學 (Understanding the Greek Philosophy),第二週作業,phased peer,158,93,0.59
+26,xila-zhexue,活用希臘哲學 (Understanding the Greek Philosophy),第三週作業,phased peer,103,68,0.66
+26,xila-zhexue,活用希臘哲學 (Understanding the Greek Philosophy),第四週作業,phased peer,80,59,0.74
+26,xila-zhexue,活用希臘哲學 (Understanding the Greek Philosophy),第六週作業,phased peer,59,47,0.80
+26,xila-zhexue,活用希臘哲學 (Understanding the Greek Philosophy),第七週作業,phased peer,51,37,0.73
+27,developmental-psychology,發展心理學：哲學觀與方法論 (Developmental Psychology: Philosophical Bases and Methodology),第二週作業,exam,150,127,0.85
+27,developmental-psychology,發展心理學：哲學觀與方法論 (Developmental Psychology: Philosophical Bases and Methodology),第三週作業,exam,82,69,0.84
+27,developmental-psychology,發展心理學：哲學觀與方法論 (Developmental Psychology: Philosophical Bases and Methodology),第三週作業——同儕互評,phased peer,36,31,0.86
+27,developmental-psychology,發展心理學：哲學觀與方法論 (Developmental Psychology: Philosophical Bases and Methodology),第四週作業,exam,57,49,0.86
+28,the-red-chamber-dream,紅樓夢(The Red Chamber Dream),第一次申論作業,phased peer,34,28,0.82
+28,the-red-chamber-dream,紅樓夢(The Red Chamber Dream),第一週測驗,exam,214,174,0.81
+28,the-red-chamber-dream,紅樓夢(The Red Chamber Dream),第二週測驗,exam,124,118,0.95
+28,the-red-chamber-dream,紅樓夢(The Red Chamber Dream),第三週測驗,exam,98,94,0.96
+28,the-red-chamber-dream,紅樓夢(The Red Chamber Dream),第二次 申論作業 (課程回顧題),phased peer,22,17,0.77
+28,the-red-chamber-dream,紅樓夢(The Red Chamber Dream),第二次 申論作業（延伸題）,phased peer,9,8,0.89
+28,the-red-chamber-dream,紅樓夢(The Red Chamber Dream),第四週測驗,exam,83,82,0.99
+28,the-red-chamber-dream,紅樓夢(The Red Chamber Dream),第五週測驗,exam,68,59,0.87
+28,the-red-chamber-dream,紅樓夢(The Red Chamber Dream),期末考,exam,60,49,0.82
+28,the-red-chamber-dream,紅樓夢(The Red Chamber Dream),第六週測驗,exam,70,65,0.93
+29,rcd2,紅樓夢：母神崇拜(The Red Chamber Dream 2),第一次申論作業,phased peer,0,0,None
+29,rcd2,紅樓夢：母神崇拜(The Red Chamber Dream 2),第一週課後練習,exam,1,1,1.00
+29,rcd2,紅樓夢：母神崇拜(The Red Chamber Dream 2),第二週課後練習,exam,0,0,None
+29,rcd2,紅樓夢：母神崇拜(The Red Chamber Dream 2),第三週課後練習,exam,0,0,None
+29,rcd2,紅樓夢：母神崇拜(The Red Chamber Dream 2),第四週課後練習,exam,0,0,None
+29,rcd2,紅樓夢：母神崇拜(The Red Chamber Dream 2),第二次申論作業（延伸續寫題）,phased peer,0,0,None
+29,rcd2,紅樓夢：母神崇拜(The Red Chamber Dream 2),第二次申論作業（課程回顧題）,phased peer,0,0,None
+29,rcd2,紅樓夢：母神崇拜(The Red Chamber Dream 2),第五週課後練習,exam,1,1,1.00
+29,rcd2,紅樓夢：母神崇拜(The Red Chamber Dream 2),第六週課後練習,exam,0,0,None
+29,rcd2,紅樓夢：母神崇拜(The Red Chamber Dream 2),期末測驗,exam,0,0,None
+30,economics,經濟學概論：誘因與市場（Introduction to Economics: Incentive and Markets）,第一講作業,exam,373,370,0.99
+30,economics,經濟學概論：誘因與市場（Introduction to Economics: Incentive and Markets）,第二講作業 I,exam,222,211,0.95
+30,economics,經濟學概論：誘因與市場（Introduction to Economics: Incentive and Markets）,第二講作業 II,phased peer,102,77,0.75
+30,economics,經濟學概論：誘因與市場（Introduction to Economics: Incentive and Markets）,第三講作業,exam,157,151,0.96
+30,economics,經濟學概論：誘因與市場（Introduction to Economics: Incentive and Markets）,第四講作業 I,exam,106,106,1.00
+30,economics,經濟學概論：誘因與市場（Introduction to Economics: Incentive and Markets）,第四講作業 II,phased peer,63,51,0.81
+31,zhichang-suyang,職場素養 (Professionalism),作業一,phased peer,1131,527,0.47
+31,zhichang-suyang,職場素養 (Professionalism),作業二,phased peer,687,418,0.61
+31,zhichang-suyang,職場素養 (Professionalism),作業三,phased peer,543,343,0.63
+32,zhuangzi,"莊子─姿勢、意識與感情 (Zhuangzi─Posture, Awareness, and Sentiment)",〈逍遙遊〉北冥有魚隨堂測驗,exam,1779,1250,0.70
+32,zhuangzi,"莊子─姿勢、意識與感情 (Zhuangzi─Posture, Awareness, and Sentiment)",〈逍遙遊〉堯讓天下＼〈逍遙遊〉大瓠之種隨堂測驗,exam,985,878,0.89
+32,zhuangzi,"莊子─姿勢、意識與感情 (Zhuangzi─Posture, Awareness, and Sentiment)",第一次作業,phased peer,324,239,0.74
+32,zhuangzi,"莊子─姿勢、意識與感情 (Zhuangzi─Posture, Awareness, and Sentiment)",〈齊物論〉南郭子綦＼〈齊物論〉莫知所萌隨堂測驗,exam,710,543,0.76
+32,zhuangzi,"莊子─姿勢、意識與感情 (Zhuangzi─Posture, Awareness, and Sentiment)",〈齊物論〉莫若以明（上）隨堂測驗,exam,702,567,0.81
+32,zhuangzi,"莊子─姿勢、意識與感情 (Zhuangzi─Posture, Awareness, and Sentiment)",〈齊物論〉莫若以明（下）隨堂測驗,exam,507,465,0.92
+32,zhuangzi,"莊子─姿勢、意識與感情 (Zhuangzi─Posture, Awareness, and Sentiment)",〈齊物論〉惡乎知之＼〈齊物論〉莊周夢蝶隨堂測驗,exam,424,283,0.67
+32,zhuangzi,"莊子─姿勢、意識與感情 (Zhuangzi─Posture, Awareness, and Sentiment)",第二次作業,phased peer,159,131,0.82
+32,zhuangzi,"莊子─姿勢、意識與感情 (Zhuangzi─Posture, Awareness, and Sentiment)",〈養生主〉生也有涯＼〈養生主〉庖丁解牛＼〈養生主〉惡乎介也＼〈養生主〉澤雉十步隨堂測驗,exam,389,337,0.87
+32,zhuangzi,"莊子─姿勢、意識與感情 (Zhuangzi─Posture, Awareness, and Sentiment)",〈養生主〉帝之縣解＼【體驗古典】怎樣做到「形如槁木」與「緣督以為經」隨堂測驗,exam,349,209,0.60
+32,zhuangzi,"莊子─姿勢、意識與感情 (Zhuangzi─Posture, Awareness, and Sentiment)",第三次作業,phased peer,138,120,0.87
+33,taiwan-marketing-stp-crm,行銷典範轉移: 變動中的消費世界 (Marketing in a changing world),練習題,exam,1282,1099,0.86
+33,taiwan-marketing-stp-crm,行銷典範轉移: 變動中的消費世界 (Marketing in a changing world),正在消失（興旺）的產品,phased peer,434,272,0.63
+33,taiwan-marketing-stp-crm,行銷典範轉移: 變動中的消費世界 (Marketing in a changing world),品牌定位圖,phased peer,295,176,0.60
+33,taiwan-marketing-stp-crm,行銷典範轉移: 變動中的消費世界 (Marketing in a changing world),小測驗,exam,402,318,0.79
+33,taiwan-marketing-stp-crm,行銷典範轉移: 變動中的消費世界 (Marketing in a changing world),產品的文化意義,phased peer,192,140,0.73
+33,taiwan-marketing-stp-crm,行銷典範轉移: 變動中的消費世界 (Marketing in a changing world),小測驗,exam,302,266,0.88
+33,taiwan-marketing-stp-crm,行銷典範轉移: 變動中的消費世界 (Marketing in a changing world),四階段行銷，從吸客到留客,phased peer,146,115,0.79
+34,c-bian-cheng,計算機程式設計,Surface Area and Volume,exam,3723,1540,0.41
+34,c-bian-cheng,計算機程式設計,What Day is Today?,exam,1962,847,0.43
+34,c-bian-cheng,計算機程式設計,Bingo,exam,1146,496,0.43
+34,c-bian-cheng,計算機程式設計,Metal Value,exam,775,442,0.57
+34,c-bian-cheng,計算機程式設計,Card Shuffling,exam,664,370,0.56
+34,c-bian-cheng,計算機程式設計,Abbreviation,exam,550,326,0.59
+34,c-bian-cheng,計算機程式設計,Final Exam,exam,761,334,0.44
+35,prob1,頑想學概率：機率一,第一週作業 B,exam,1408,1183,0.84
+35,prob1,頑想學概率：機率一,第二週作業,exam,792,318,0.40
+35,prob1,頑想學概率：機率一,第三週作業,exam,397,221,0.56
+35,prob1,頑想學概率：機率一,第四週作業,exam,288,210,0.73
+35,prob1,頑想學概率：機率一,第四週作業（離散機率分佈）,exam,220,109,0.50
+36,prob2,頑想學概率：機率二,第五週作業,exam,135,96,0.71
+36,prob2,頑想學概率：機率二,第六週作業,exam,84,65,0.77
+36,prob2,頑想學概率：機率二,第七週作業,exam,56,38,0.68
+36,prob2,頑想學概率：機率二,第八週作業,exam,44,41,0.93
+36,prob2,頑想學概率：機率二,期末考,exam,29,27,0.93
+36,prob2,頑想學概率：機率二,第九週作業,exam,36,31,0.86
+37,shipin-anquan,食品安全與毒理 (Food Safety & Toxicology),Week 1 - Quiz,exam,466,293,0.63
+37,shipin-anquan,食品安全與毒理 (Food Safety & Toxicology),Week 2 - Quiz,exam,254,191,0.75
+37,shipin-anquan,食品安全與毒理 (Food Safety & Toxicology),Week 3 - Quiz,exam,191,125,0.65
+37,shipin-anquan,食品安全與毒理 (Food Safety & Toxicology),期中作業,phased peer,48,29,0.60
+37,shipin-anquan,食品安全與毒理 (Food Safety & Toxicology),Week 4 - Quiz,exam,124,92,0.74
+37,shipin-anquan,食品安全與毒理 (Food Safety & Toxicology),Week 5 - Quiz,exam,97,67,0.69
+37,shipin-anquan,食品安全與毒理 (Food Safety & Toxicology),Week 6 - Quiz,exam,83,65,0.78
+37,shipin-anquan,食品安全與毒理 (Food Safety & Toxicology),期末作業,phased peer,28,17,0.61
+37,shipin-anquan,食品安全與毒理 (Food Safety & Toxicology),期末小考 (上),exam,72,43,0.60
+37,shipin-anquan,食品安全與毒理 (Food Safety & Toxicology),期末小考 (下),exam,58,42,0.72
+38,foodsafety2,食品安全與風險分析（Food Safety＆Risk Analysis）,Week 1 - Quiz,exam,88,80,0.91
+38,foodsafety2,食品安全與風險分析（Food Safety＆Risk Analysis）,Week 2 - Quiz,exam,29,26,0.90
+38,foodsafety2,食品安全與風險分析（Food Safety＆Risk Analysis）,互評作業一：風險評估企劃,phased peer,10,6,0.60
+38,foodsafety2,食品安全與風險分析（Food Safety＆Risk Analysis）,Week 3 - Quiz,exam,18,17,0.94
+38,foodsafety2,食品安全與風險分析（Food Safety＆Risk Analysis）,互評作業二-風險管理提案,phased peer,6,3,0.50
+38,foodsafety2,食品安全與風險分析（Food Safety＆Risk Analysis）,Week 4 - Quiz,exam,12,12,1.00
+38,foodsafety2,食品安全與風險分析（Food Safety＆Risk Analysis）,互評作業：風險溝通提案,phased peer,6,2,0.33
+38,foodsafety2,食品安全與風險分析（Food Safety＆Risk Analysis）,Week 5 - Quiz,exam,10,10,1.00

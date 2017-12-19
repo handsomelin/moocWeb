@@ -15,3 +15,25 @@ id,英文名稱,課程名稱,good總次數,bad總次數,評價次數,平均分�
 14,3d-cad,工程圖學 3D CAD,151,15,79,8.37
 15,2d-cad,工程圖學 2D CAD,1142,21,231,8.49
 16,cad3d,工程圖學 3D CAD 專題,119,7,51,8.71
+17,jianzhu-zixun-jianmo,工程資訊管理 BIM 基礎,558,7,129,8.94
+18,bim-sumo,工程資訊管理 BIM 塑模,265,4,84,8.89
+19,bim-yingyong,工程資訊管理 BIM 應用,254,7,34,8.88
+20,mencius1,東亞儒學：孟子一 (East Asian Confucianisms: Mencius 1),0,0,1,10.00
+21,mencius2,東亞儒學：孟子二 (East Asian Confucianisms: Mencius 2),74,0,7,9.00
+22,east-asian-confucianisms-humanism1,東亞儒家:人文精神一 (East Asian Confucianisms: Humanism 1),132,3,31,8.00
+23,east-asian-confucianisms-humanism2,東亞儒家:人文精神二(East Asian Confucianisms: Humanism 2),1,0,0,None
+24,su-dongpo,東坡詞 (Ci Poetry of Su Dong Po),515,3,320,8.20
+25,robotics1,機器人學一 (Robotics 1),195,9,104,8.88
+26,xila-zhexue,活用希臘哲學 (Understanding the Greek Philosophy),450,9,166,8.17
+27,developmental-psychology,發展心理學：哲學觀與方法論 (Developmental Psychology: Philosophical Bases and Methodology),180,1,104,7.98
+28,the-red-chamber-dream,紅樓夢(The Red Chamber Dream),68,1,8,9.25
+29,rcd2,紅樓夢：母神崇拜(The Red Chamber Dream 2),0,0,1,10.00
+30,economics,經濟學概論：誘因與市場（Introduction to Economics: Incentive and Markets）,142,2,170,8.09
+31,zhichang-suyang,職場素養 (Professionalism),1234,13,371,8.61
+32,zhuangzi,"莊子─姿勢、意識與感情 (Zhuangzi─Posture, Awareness, and Sentiment)",758,15,690,8.96
+33,taiwan-marketing-stp-crm,行銷典範轉移: 變動中的消費世界 (Marketing in a changing world),504,13,582,8.36
+34,c-bian-cheng,計算機程式設計,674,27,653,8.55
+35,prob1,頑想學概率：機率一,526,23,578,8.50
+36,prob2,頑想學概率：機率二,105,1,46,8.39
+37,shipin-anquan,食品安全與毒理 (Food Safety & Toxicology),203,2,110,7.86
+38,foodsafety2,食品安全與風險分析（Food Safety＆Risk Analysis）,12,1,17,8.41

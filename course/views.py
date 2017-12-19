@@ -20,8 +20,9 @@ def passrateCourse(request, id):
 	for row in csv.DictReader(myFile):
 		if(row['id'] == id):
 			course_name=row['課程名稱']
-			test=row['測驗次數']
-			total_pass=row['通過次數']
+			trys = row['測驗人次']
+			test=row['作業份數']
+			total_pass=row['通過人次']
 			average_pass=row['平均通過率']
 	for row in csv.DictReader(myFile2):
 		courseList.append(row['課程名稱'])
@@ -118,3 +119,72 @@ def ratingItem(request, id):
 	myFile2.close()
 	now_id = id
 	return render_to_response('rating_item.html',locals())
+
+def registerWeeklyItem(request, id):
+	myFile=open('/home/user/moocWeb/total/total_register_item_weekly_level.csv','r')
+	myFile2=open('/home/user/moocWeb/total/course.csv','r')
+	courseList = []
+	week=[]
+	start=[]
+	end=[]
+	register=[]
+	buy=[]
+	finish=[]
+	for row in csv.DictReader(myFile):
+		if(row['id'] == id):
+			course_name=row['課程名稱']
+			week.append(row['週次'])
+			start.append(row['該週開始日期'])
+			end.append(row['該週結束日期'])
+			register.append(row['註冊人數'])
+			buy.append(row['購買人數'])
+			finish.append(row['完課人數'])
+	for row in csv.DictReader(myFile2):
+		courseList.append(row['課程名稱'])
+	myFile.close()
+	myFile2.close()
+	now_id = id
+	return render_to_response('register_weekly_item.html',locals())
+
+def registerDailyItem(request, id):
+	myFile=open('/home/user/moocWeb/total/total_register_item_daily_level.csv','r')
+	myFile2=open('/home/user/moocWeb/total/course.csv','r')
+	humanityHistoryId = [3, 6, 7, 20, 21,22, 23, 24, 26, 28, 29, 32]
+	businessEconomyId = [1, 30, 31, 9, 33]
+	lifeScienceId = [8, 10, 11, 12, 27, 37, 38]
+	engineeringId = [2, 4, 5, 13, 14, 15, 16, 17, 18, 19, 25, 34]
+	otherId = [35, 36]
+	courseId1 = []
+	courseList1 = []
+	courseList2 = []
+	courseList3 = []
+	courseList4 = []
+	courseList5 = []
+	day=[]
+	date=[]
+	register=[]
+	buy=[]
+	finish=[]
+	for row in csv.DictReader(myFile):
+		if(row['id'] == id):
+			course_name=row['課程名稱']
+			day.append(row['天數'])
+			date.append(row['日期'])
+			register.append(row['註冊人數'])
+			buy.append(row['購買人數'])
+			finish.append(row['完課人數'])
+	for row in csv.DictReader(myFile2):
+		if int(row['id']) in humanityHistoryId:
+			courseList1.append(row)
+		if int(row['id']) in businessEconomyId:
+			courseList2.append(row)
+		if int(row['id']) in lifeScienceId:
+			courseList3.append(row)
+		if int(row['id']) in engineeringId:
+			courseList4.append(row)
+		if int(row['id']) in otherId:
+			courseList5.append(row)
+	myFile.close()
+	myFile2.close()
+	now_id = id
+	return render_to_response('register_daily_item.html',locals())

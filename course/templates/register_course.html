@@ -19,5 +19,6 @@
     <td>{{total_finish}}</td>
 {% endblock %}
 {% block item %}
-    <input type="button" value="課程詳細資訊" onclick="location.href='http://127.0.0.1:8000/gabr_passrate_item'">
+    <input type="button" value="課程詳細資訊(週)" onclick="location.href='/registerWeeklyItem/{{now_id}}'">
+     <input type="button" value="課程詳細資訊(日)" onclick="location.href='/registerDailyItem/{{now_id}}'">
 {% endblock %}

@@ -66,12 +66,31 @@
             {% endblock %}</h1>
         <hr>
         <ul align="center">
-            {% for course in courseList %}
-                <li><input type="button" style=color:blue onclick="location.href='/passrateCourse/{{forloop.counter}}'" value={{course}}></li>
-                <!-- <li><a href="/register_course/6/">中國古代歷史與人物－－秦始皇</a></li>
-                <li><a href="/register_course/11/"></a>人工智慧</li>
-                <li><a href="/register_course/9/">機器學習基石上</a></li> -->
+        <select onchange="window.open(this.options[this.selectedIndex].value)">
+            {% for course in courseList1 %}
+                <option value="http://140.112.107.157/registerCourse/{{course.id}}">{{course.課程名稱}}</option>
             {% endfor %}
+        </select>
+        <select onchange="window.open(this.options[this.selectedIndex].value)">
+            {% for course in courseList2 %}
+                <option value="http://140.112.107.157/registerCourse/{{course.id}}">{{course.課程名稱}}</option>
+            {% endfor %}
+        </select>
+        <select onchange="window.open(this.options[this.selectedIndex].value)">
+            {% for course in courseList3 %}
+                <option value="http://140.112.107.157/registerCourse/{{course.id}}">{{course.課程名稱}}</option>
+            {% endfor %}
+        </select>
+        <select onchange="window.open(this.options[this.selectedIndex].value)">
+            {% for course in courseList4 %}
+                <option value="http://140.112.107.157/registerCourse/{{course.id}}">{{course.課程名稱}}</option>
+            {% endfor %}
+        </select>
+        <select onchange="window.open(this.options[this.selectedIndex].value)">
+            {% for course in courseList5 %}
+                <option value="http://140.112.107.157/registerCourse/{{course.id}}">{{course.課程名稱}}</option>
+            {% endfor %}
+        </select>
         </ul>
         <div>
             <p id="substract">
