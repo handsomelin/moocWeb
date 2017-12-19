@@ -66,31 +66,52 @@
             {% endblock %}</h1>
         <hr>
         <ul align="center">
-        <select onchange="window.open(this.options[this.selectedIndex].value)">
-            {% for course in courseList1 %}
-                <option value="http://140.112.107.157/registerCourse/{{course.id}}">{{course.課程名稱}}</option>
-            {% endfor %}
-        </select>
-        <select onchange="window.open(this.options[this.selectedIndex].value)">
-            {% for course in courseList2 %}
-                <option value="http://140.112.107.157/registerCourse/{{course.id}}">{{course.課程名稱}}</option>
-            {% endfor %}
-        </select>
-        <select onchange="window.open(this.options[this.selectedIndex].value)">
-            {% for course in courseList3 %}
-                <option value="http://140.112.107.157/registerCourse/{{course.id}}">{{course.課程名稱}}</option>
-            {% endfor %}
-        </select>
-        <select onchange="window.open(this.options[this.selectedIndex].value)">
-            {% for course in courseList4 %}
-                <option value="http://140.112.107.157/registerCourse/{{course.id}}">{{course.課程名稱}}</option>
-            {% endfor %}
-        </select>
-        <select onchange="window.open(this.options[this.selectedIndex].value)">
-            {% for course in courseList5 %}
-                <option value="http://140.112.107.157/registerCourse/{{course.id}}">{{course.課程名稱}}</option>
-            {% endfor %}
-        </select>
+        <table>
+            <tr>
+                <td>人文史地</td>
+                <td>商管經濟</td>
+                <td>生命科學</td>
+                <td>工程領域</td>
+                <td>其他</td>
+            </tr>
+            <tr>
+                <td>
+                    <select onchange="window.open(this.options[this.selectedIndex].value)">
+                    {% for course in courseList1 %}
+                        <option value="http://140.112.107.157/registerCourse/{{course.id}}">{{course.課程名稱}}</option>
+                    {% endfor %}
+                    </select>
+                </td>
+                <td>
+                    <select onchange="window.open(this.options[this.selectedIndex].value)">
+                    {% for course in courseList2 %}
+                        <option value="http://140.112.107.157/registerCourse/{{course.id}}">{{course.課程名稱}}</option>
+                    {% endfor %}
+                    </select>
+                </td>
+                <td>
+                    <select onchange="window.open(this.options[this.selectedIndex].value)">
+                    {% for course in courseList3 %}
+                        <option value="http://140.112.107.157/registerCourse/{{course.id}}">{{course.課程名稱}}</option>
+                    {% endfor %}
+                    </select>
+                </td>
+                <td>
+                    <select onchange="window.open(this.options[this.selectedIndex].value)">
+                    {% for course in courseList4 %}
+                        <option value="http://140.112.107.157/registerCourse/{{course.id}}">{{course.課程名稱}}</option>
+                    {% endfor %}
+                    </select>
+                </td>
+                <td>
+                    <select onchange="window.open(this.options[this.selectedIndex].value)">
+                    {% for course in courseList5 %}
+                        <option value="http://140.112.107.157/registerCourse/{{course.id}}">{{course.課程名稱}}</option>
+                    {% endfor %}
+                    </select>
+                </td>
+            </tr>
+        </table>
         </ul>
         <div>
             <p id="substract">
