@@ -1,25 +1,38 @@
 {% extends 'base.html' %}
+
 {% block title %} 
     {{course_name}}
 {% endblock %}
+
 {% block button %}
     <input type="button" value="註冊人數" onclick="location.href='/registerCourse/{{now_id}}/'"><br>
-    <input type="button" value="影片評分" onclick="location.href='/ratingCourse/{{now_id}}/'">
-    <input type="button" value="作業完成率" onclick="location.href='/passrateCourse/{{now_id}}/'">
+    <input type="button" value="影片評分" onclick="location.href='/ratingCourse/{{now_id}}/'"><br>
+    <input type="button" value="作業完成率" onclick="location.href='/passrateCourse/{{now_id}}/'"><br>
+    <input type="button" value="下載" onclick="location.href='/download/{{now_id}}/'"><br>
 {% endblock %}
-{% block type %} Rating {% endblock %}
+
+{% block type %}
+     影片評分 
+{% endblock %}
+
 {% block tabletitle %}
     <td>Good總次數</td>
     <td>Bad總次數</td>
     <td>評價次數</td>
     <td>平均分數</td>
+    <td>Bad Ratio</td>
 {% endblock %}
+
 {% block table %}
     <td>{{total_good}}</td>
     <td>{{total_bad}}</td>
     <td>{{total}}</td>
     <td>{{average_rating}}</td>
+    <td>{{bad_ratio}}</td>
 {% endblock %}
+
 {% block item %}
-    <input type="button" value="課程詳細資訊" onclick="location.href='/ratingItem/{{now_id}}/'">
+    <td align="center" colspan="5">
+        <input type="button" value="課程詳細資訊" onclick="location.href='/ratingItem/{{now_id}}/'"></input>
+    </td>
 {% endblock %}

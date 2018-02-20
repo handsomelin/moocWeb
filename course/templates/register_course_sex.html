@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+{% block title %} 
+    {{course_name}}
+{% endblock %}
+
+{% block button %}
+    <input type="button" value="註冊人數" onclick="location.href='/registerCourse/{{now_id}}/'"><br>
+    <input type="button" value="影片評分" onclick="location.href='/ratingCourse/{{now_id}}/'">
+    <input type="button" value="作業完成率" onclick="location.href='/passrateCourse/{{now_id}}/'">
+    <input type="button" value="下載" onclick="location.href='/download/{{now_id}}/'"><br>
+{% endblock %}
+
+{% block type %}  
+    註冊人數
+{% endblock %}
+
+{% block tabletitle %}
+    <td>總註冊人數</td>
+    <td>總購買人數</td>
+    <td>總完課人數</td>
+    <td>男</td>
+    <td>女</td>
+{% endblock %}
+
+{% block table %}
+    <td>{{total_register}}</td>
+    <td>{{total_buy}}</td>
+    <td>{{total_finish}}</td>
+{% endblock %}
+
+{% block item %}
+    <input type="button" value="課程詳細資訊(週)" onclick="location.href='/registerWeeklyItem/{{now_id}}'">
+    <input type="button" value="課程詳細資訊(日)" onclick="location.href='/registerDailyItem/{{now_id}}'">
+{% endblock %}

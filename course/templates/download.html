@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+{% block title %} 
+    {{course_name}}
+{% endblock %}
+{% block button %}
+    <input type="button" value="註冊人數" onclick="location.href='/registerCourse/{{now_id}}/'"><br>
+    <input type="button" value="影片評分" onclick="location.href='/ratingCourse/{{now_id}}/'">
+    <input type="button" value="作業完成率" onclick="location.href='/passrateCourse/{{now_id}}/'">
+    <input type="button" value="下載" onclick="location.href='/download/{{now_id}}/'"><br>
+{% endblock %}
+{% block type %} 下載 {% endblock %}
+{% block tabletitle %}
+    <td>註冊人數總表</td>
+    <td>註冊人數詳細資訊（週）</td>
+    <td>註冊人數詳細資訊（日）</td>
+    <td>影片評分總表</td>
+    <td>影片評分詳細資訊</td>
+    <td>作業完成率總表</td>
+    <td>作業完成率詳細資訊</td>
+{% endblock %}
+{% block table %}
+<tr>
+    <td align="center"><font size="3">
+            <input type="button" onclick="location.href='/download3/{{now_id}}/'" value="下載"><br>
+    </font></td>
+    <td align="center"><font size="3">
+            <input type="button" onclick="location.href='/download2/{{now_id}}/'" value="下載"><br>
+    </font></td>
+    <td align="center"><font size="3">
+            <input type="button" onclick="location.href='/download1/{{now_id}}/'" value="下載"><br>
+    </font></td>
+    <td align="center"><font size="3">
+            <input type="button" onclick="location.href='/download6/{{now_id}}/'" value="下載"><br>
+    </font></td>
+    <td align="center"><font size="3">
+            <input type="button" onclick="location.href='/download7/{{now_id}}/'" value="下載"><br>
+    </font></td>
+    <td align="center"><font size="3">
+            <input type="button" onclick="location.href='/download5/{{now_id}}/'" value="下載"><br>
+    </font></td>
+    <td align="center"><font size="3">
+            <input type="button" onclick="location.href='/download4/{{now_id}}/'" value="下載"><br>
+    </font></td>
+</tr>
+{% endblock %}
+{% block note %}
+{% endblock %}
+{% block item %}
+{% endblock %}

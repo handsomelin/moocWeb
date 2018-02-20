@@ -1,39 +1,39 @@
-id,英文名稱,課程名稱,good總次數,bad總次數,評價次數,平均分數
-1,gabr,商管研究中的賽局分析：通路選擇、合約制定與共享經濟,34,0,17,8.76
-2,ntumlone-mathematicalfoundations,機器學習基石上 (Machine Learning Foundations)---Mathematical Foundations,583,14,574,9.19
-3,qin-shi-huang,中國古代歷史與人物－－秦始皇,307,6,288,9.31
-4,rengong-zhineng,人工智慧(Artificial Intelligence),506,15,613,8.33
-5,cad-bim-shiwu,CAD/BIM實務總整專題：畢業課程,34,1,19,9.05
-6,shiji,史記（一）（Shi-ji (1) ）,567,7,500,9.05
-7,tang-poems,唐詩新思路,973,6,328,8.87
-8,ji-chu-guang-xue,基礎光學 I,296,9,108,8.19
-9,shiyan-jingji-xue,實驗經濟學 (Experimental Economics I: Behavioral Game Theory),116,3,186,7.90
-10,shaonian-fuli,少年福利與權利 (Welfare and Rights of Youth),121,4,64,7.88
-11,wuli,普通物理學 - 電磁學、光學及近代物理,99,3,2,7.50
-12,mechanics-of-materials-1,材料力學一 (Mechanics of Materials I),228,12,32,8.75
-13,cad,工程圖學 2D CAD 專題,204,2,105,8.88
-14,3d-cad,工程圖學 3D CAD,151,15,79,8.37
-15,2d-cad,工程圖學 2D CAD,1142,21,231,8.49
-16,cad3d,工程圖學 3D CAD 專題,119,7,51,8.71
-17,jianzhu-zixun-jianmo,工程資訊管理 BIM 基礎,558,7,129,8.94
-18,bim-sumo,工程資訊管理 BIM 塑模,265,4,84,8.89
-19,bim-yingyong,工程資訊管理 BIM 應用,254,7,34,8.88
-20,mencius1,東亞儒學：孟子一 (East Asian Confucianisms: Mencius 1),0,0,1,10.00
-21,mencius2,東亞儒學：孟子二 (East Asian Confucianisms: Mencius 2),74,0,7,9.00
-22,east-asian-confucianisms-humanism1,東亞儒家:人文精神一 (East Asian Confucianisms: Humanism 1),132,3,31,8.00
-23,east-asian-confucianisms-humanism2,東亞儒家:人文精神二(East Asian Confucianisms: Humanism 2),1,0,0,None
-24,su-dongpo,東坡詞 (Ci Poetry of Su Dong Po),515,3,320,8.20
-25,robotics1,機器人學一 (Robotics 1),195,9,104,8.88
-26,xila-zhexue,活用希臘哲學 (Understanding the Greek Philosophy),450,9,166,8.17
-27,developmental-psychology,發展心理學：哲學觀與方法論 (Developmental Psychology: Philosophical Bases and Methodology),180,1,104,7.98
-28,the-red-chamber-dream,紅樓夢(The Red Chamber Dream),68,1,8,9.25
-29,rcd2,紅樓夢：母神崇拜(The Red Chamber Dream 2),0,0,1,10.00
-30,economics,經濟學概論：誘因與市場（Introduction to Economics: Incentive and Markets）,142,2,170,8.09
-31,zhichang-suyang,職場素養 (Professionalism),1234,13,371,8.61
-32,zhuangzi,"莊子─姿勢、意識與感情 (Zhuangzi─Posture, Awareness, and Sentiment)",758,15,690,8.96
-33,taiwan-marketing-stp-crm,行銷典範轉移: 變動中的消費世界 (Marketing in a changing world),504,13,582,8.36
-34,c-bian-cheng,計算機程式設計,674,27,653,8.55
-35,prob1,頑想學概率：機率一,526,23,578,8.50
-36,prob2,頑想學概率：機率二,105,1,46,8.39
-37,shipin-anquan,食品安全與毒理 (Food Safety & Toxicology),203,2,110,7.86
-38,foodsafety2,食品安全與風險分析（Food Safety＆Risk Analysis）,12,1,17,8.41
+id,英文名稱,課程名稱,good總次數,bad總次數,評價次數,平均分數,Bad Ratio
+1,gabr,商管研究中的賽局分析：通路選擇、合約制定與共享經濟,34,0,17,8.76,0.0000
+2,ntumlone-mathematicalfoundations,機器學習基石上 (Machine Learning Foundations)---Mathematical Foundations,583,14,574,9.19,0.0235
+3,qin-shi-huang,中國古代歷史與人物－－秦始皇,307,6,288,9.31,0.0192
+4,rengong-zhineng,人工智慧(Artificial Intelligence),506,15,613,8.33,0.0288
+5,cad-bim-shiwu,CAD/BIM實務總整專題：畢業課程,34,1,19,9.05,0.0286
+6,shiji,史記（一）（Shi-ji (1) ）,567,7,500,9.05,0.0122
+7,tang-poems,唐詩新思路,973,6,328,8.87,0.0061
+8,ji-chu-guang-xue,基礎光學 I,296,9,108,8.19,0.0295
+9,shiyan-jingji-xue,實驗經濟學 (Experimental Economics I: Behavioral Game Theory),116,3,186,7.90,0.0252
+10,shaonian-fuli,少年福利與權利 (Welfare and Rights of Youth),121,4,64,7.88,0.0320
+11,wuli,普通物理學 - 電磁學、光學及近代物理,99,3,2,7.50,0.0294
+12,mechanics-of-materials-1,材料力學一 (Mechanics of Materials I),228,12,32,8.75,0.0500
+13,cad,工程圖學 2D CAD 專題,204,2,105,8.88,0.0097
+14,3d-cad,工程圖學 3D CAD,151,15,79,8.37,0.0904
+15,2d-cad,工程圖學 2D CAD,1142,21,231,8.49,0.0181
+16,cad3d,工程圖學 3D CAD 專題,119,7,51,8.71,0.0556
+17,jianzhu-zixun-jianmo,工程資訊管理 BIM 基礎,558,7,129,8.94,0.0124
+18,bim-sumo,工程資訊管理 BIM 塑模,265,4,84,8.89,0.0149
+19,bim-yingyong,工程資訊管理 BIM 應用,254,7,34,8.88,0.0268
+20,mencius1,東亞儒學：孟子一 (East Asian Confucianisms: Mencius 1),0,0,1,10.00,None
+21,mencius2,東亞儒學：孟子二 (East Asian Confucianisms: Mencius 2),74,0,7,9.00,0.0000
+22,east-asian-confucianisms-humanism1,東亞儒家:人文精神一 (East Asian Confucianisms: Humanism 1),132,3,31,8.00,0.0222
+23,east-asian-confucianisms-humanism2,東亞儒家:人文精神二(East Asian Confucianisms: Humanism 2),1,0,0,None,0.0000
+24,su-dongpo,東坡詞 (Ci Poetry of Su Dong Po),515,3,320,8.20,0.0058
+25,robotics1,機器人學一 (Robotics 1),195,9,104,8.88,0.0441
+26,xila-zhexue,活用希臘哲學 (Understanding the Greek Philosophy),450,9,166,8.17,0.0196
+27,developmental-psychology,發展心理學：哲學觀與方法論 (Developmental Psychology: Philosophical Bases and Methodology),180,1,104,7.98,0.0055
+28,the-red-chamber-dream,紅樓夢(The Red Chamber Dream),68,1,8,9.25,0.0145
+29,rcd2,紅樓夢：母神崇拜(The Red Chamber Dream 2),0,0,1,10.00,None
+30,economics,經濟學概論：誘因與市場（Introduction to Economics: Incentive and Markets）,142,2,170,8.09,0.0139
+31,zhichang-suyang,職場素養 (Professionalism),1234,13,371,8.61,0.0104
+32,zhuangzi,"莊子─姿勢、意識與感情 (Zhuangzi─Posture, Awareness, and Sentiment)",758,15,690,8.96,0.0194
+33,taiwan-marketing-stp-crm,行銷典範轉移: 變動中的消費世界 (Marketing in a changing world),504,13,582,8.36,0.0251
+34,c-bian-cheng,計算機程式設計,674,27,653,8.55,0.0385
+35,prob1,頑想學概率：機率一,526,23,578,8.50,0.0419
+36,prob2,頑想學概率：機率二,105,1,46,8.39,0.0094
+37,shipin-anquan,食品安全與毒理 (Food Safety & Toxicology),203,2,110,7.86,0.0098
+38,foodsafety2,食品安全與風險分析（Food Safety＆Risk Analysis）,12,1,17,8.41,0.0769

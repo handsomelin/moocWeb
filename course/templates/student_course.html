@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% block title %} 
+    {{course_name}}
+{% endblock %}
+{% block button %}
+    <input type="button" value="註冊人數" onclick="location.href='/registerCourse/{{now_id}}/'"><br>
+    <input type="button" value="影片評分" onclick="location.href='/ratingCourse/{{now_id}}/'">
+    <input type="button" value="作業完成率" onclick="location.href='/passrateCourse/{{now_id}}/'">
+    <input type="button" value="學生狀況" onclick="location.href='/studentCourse/{{now_id}}/'">
+    <input type="button" value="下載" onclick="location.href='/download/{{now_id}}/'"><br>
+{% endblock %}
+{% block type %}  Student Status {% endblock %}
+{% block tabletitle %}
+    <td>Country</td>
+    <td>Gender</td>
+    <td>Employ Status</td>
+    <td>Education Status</td>
+{% endblock %}
+{% block table %}
+    <td>{{country}}</td>
+    <td>{{gender}}</td>
+    <td>{{employment_status}}</td>
+    <td>{{educational_status}}</td>
+{% endblock %}
+{% block item %}
+{% endblock %}
