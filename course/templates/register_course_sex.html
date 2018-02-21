@@ -24,12 +24,41 @@
 {% endblock %}
 
 {% block table %}
-    <td>{{total_register}}</td>
-    <td>{{total_buy}}</td>
-    <td>{{total_finish}}</td>
+    <td>
+        {% for day in day %}
+            {{day}}<br>
+        {% endfor %}
+    </td>
+    <td>
+        {% for date in date %}
+            {{date}}<br>
+        {% endfor %}
+    </td>
+    <td>
+        {% for register in register %}
+            {{register}}<br>
+        {% endfor %}
+    </td>
+    <td>
+        {% for buy in buy %}
+            {{buy}}<br>
+        {% endfor %}
+    </td>
+    <td>
+        {% for finish in finish %}
+            {{finish}}<br>
+        {% endfor %}
+    </td>
+    <td>
+        
+    </td>
+    <td>
+        
+    </td>
 {% endblock %}
 
 {% block item %}
-    <input type="button" value="課程詳細資訊(週)" onclick="location.href='/registerWeeklyItem/{{now_id}}'">
-    <input type="button" value="課程詳細資訊(日)" onclick="location.href='/registerDailyItem/{{now_id}}'">
+    <td align="center" colspan="5">
+        <input type ="button" onclick="history.back()" value="回上一頁"></input>
+    </td>
 {% endblock %}
