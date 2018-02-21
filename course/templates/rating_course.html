@@ -32,7 +32,15 @@
 {% endblock %}
 
 {% block item %}
-    <td align="center" colspan="5">
-        <input type="button" value="課程詳細資訊" onclick="location.href='/ratingItem/{{now_id}}/'"></input>
-    </td>
+    <tr>
+        <td align="center">
+            <input type="button" value="課程詳細資訊(性別)" onclick="location.href='/registerWeeklyItem/{{now_id}}'">
+        </td>
+        <td align="center">
+            <input type="button" value="課程詳細資訊(性別)" onclick="location.href='/registerWeeklyItem/{{now_id}}'">
+        </td>
+        <td align="center">
+            <input type="button" value="課程詳細資訊(學歷)" onclick="location.href='/registerWeeklyItem/{{now_id}}'">
+        </td>
+    </tr>
 {% endblock %}
