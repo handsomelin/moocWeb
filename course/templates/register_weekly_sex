@@ -1,0 +1,64 @@
+{% extends 'base.html' %}
+
+{% block title %} 
+    {{course_name}}
+{% endblock %}
+
+{% block button %}
+    <input type="button" value="註冊人數" onclick="location.href='/registerCourse/{{now_id}}/'"><br>
+    <input type="button" value="影片評分" onclick="location.href='/ratingCourse/{{now_id}}/'"><br>
+    <input type="button" value="作業完成率" onclick="location.href='/passrateCourse/{{now_id}}/'"><br>
+    <input type="button" value="下載" onclick="location.href='/download/{{now_id}}/'"><br>
+{% endblock %}
+
+{% block type %} 
+    註冊人數 
+{% endblock %}
+
+{% block tabletitle %}
+    <td>週次</td>
+    <td>該週開始日期</td>
+    <td>該週結束日期</td>
+    <td>註冊人數</td>
+    <td>購買人數</td>
+    <td>完課人數</td>
+{% endblock %}
+
+{% block table %}
+    <td>
+        {% for week in week %}
+            {{week}}<br>
+        {% endfor %}
+    </td>
+    <td>
+        {% for start in start %}
+            {{start}}<br>
+        {% endfor %}
+    </td>
+    <td>
+        {% for end in end %}
+           {{end}}<br>
+        {% endfor %}
+    </td>
+    <td>
+        {% for register in register %}
+            {{register}}<br>
+        {% endfor %}
+    </td>
+    <td>
+        {% for buy in buy %}
+            {{buy}}<br>
+        {% endfor %}
+    </td>
+    <td>
+        {% for finish in finish %}
+            {{finish}}<br>
+        {% endfor %}
+    </td>
+{% endblock %}
+
+{% block item %}
+    <td align="center" colspan="6">
+        <input type ="button" onclick="history.back()" value="回上一頁"></input>
+    </td>
+{% endblock %}
