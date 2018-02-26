@@ -1,0 +1,76 @@
+{% extends 'base.html' %}
+
+{% block title %} 
+    {{course_name}}
+{% endblock %}
+
+{% block button %}
+    <input type="button" value="註冊人數" onclick="location.href='/registerCourse/{{now_id}}/'"><br>
+    <input type="button" value="影片評分" onclick="location.href='/ratingCourse/{{now_id}}/'"><br>
+    <input type="button" value="作業完成率" onclick="location.href='/passrateCourse/{{now_id}}/'"><br>
+    <input type="button" value="下載" onclick="location.href='/download/{{now_id}}/'"><br>
+{% endblock %}
+
+{% block type %} 
+    影片評分 
+{% endblock %}
+
+{% block tabletitle %}
+    <td>週次</td>
+    <td>課程名稱</td>
+    <td align="left">item名稱</td>
+    <td>item類型</td>
+    <td>Good次數</td>
+    <td>Bad次數</td>
+    <td>Bad Ratio</td>
+    <td>Good次數(男)</td>
+    <td>Bad次數(男)</td>
+    <td>Good次數(女)</td>
+    <td>Bad次數(女)</td>
+{% endblock %}
+
+{% block table %}
+    {% for row in output %}
+    <tr>
+        <td>
+            {{row.周次}}<br>
+        </td>
+        <td>
+            {{row.課程名稱}}<br>
+        </td>
+        <td>
+            {{row.item名稱}}<br>
+        </td>
+        <td align="center">
+            {{row.item類型}}<br>
+        </td>
+        <td align="center">
+            {{row.good次數}}<br>
+        </td>
+        <td align="center">
+            {{row.bad次數}}<br>
+        </td>
+        <td align="center">
+            {{row.Bad_Ratio}}<br>
+        </td>
+        <td align="center">
+            {{row.good次數}}<br>
+        </td>
+        <td align="center">
+            {{row.bad次數}}<br>
+        </td>
+        <td align="center">
+            {{row.good次數}}<br>
+        </td>
+        <td align="center">
+            {{row.bad次數}}<br>
+        </td>
+    </tr>
+    {% endfor %}
+{% endblock %}
+
+{% block item %}
+    <td align="center" colspan="7">
+        <input type ="button" onclick="history.back()" value="回上一頁"></input>
+    </td>
+{% endblock %}
