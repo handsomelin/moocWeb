@@ -1,0 +1,69 @@
+{% extends 'base.html' %}
+
+{% block title %} 
+    {{course_name}}
+{% endblock %}
+
+{% block button %}
+    <input type="button" value="註冊人數" onclick="location.href='/registerCourse/{{now_id}}/'"><br>
+    <input type="button" value="影片評分" onclick="location.href='/ratingCourse/{{now_id}}/'"><br>
+    <input type="button" value="作業完成率" onclick="location.href='/passrateCourse/{{now_id}}/'"><br>
+    <input type="button" value="下載" onclick="location.href='/download/{{now_id}}/'"><br>
+{% endblock %}
+
+{% block type %} 
+    作業完成率 
+{% endblock %}
+
+{% block tabletitle %}
+    <td>作業名稱</td>
+    <td>作業類型</td>
+    <td>繳交人數</td>
+    <td>通過人數</td>
+    <td>通過率</td>
+    <td>繳交人數(博士)</td>
+    <td>通過人數(博士)</td>
+    <td>繳交人數(碩士)</td>
+    <td>通過人數(碩士)</td>
+    <td>繳交人數(學士)</td>
+    <td>通過人數(學士)</td>
+    <td>繳交人數(高中)</td>
+    <td>通過人數(高中)</td>
+    <td>繳交人數(其他)</td>
+    <td>通過人數(其他)</td>
+{% endblock %}
+
+{% block table %}
+    {% for row in output %}
+    <tr>
+        <td>
+            {{row.作業名稱}}<br>
+        </td>
+        <td>
+            {{row.作業類型}}<br>
+        </td>
+        <td align="center">
+            {{row.繳交人數}}<br>
+        </td>
+        <td align="center">
+            {{row.通過人數}}<br>
+        </td>
+        <td align="center">
+            {{row.通過率}}<br>
+        </td>
+    </tr>
+    {% endfor %}
+{% endblock %}
+
+{% block item %}
+    <tr>
+        <td align="center" colspan="5">
+            <p>每人每次作業有複數次繳交，也只會留下最後一次繳交作業的成績</p>
+        </td>
+    </tr>
+    <tr>
+        <td align="center" colspan="5">
+            <input type ="button" onclick="history.back()" value="回上一頁"></input>
+        </td>
+    </tr>
+{% endblock %}
